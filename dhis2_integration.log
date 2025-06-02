@@ -1,0 +1,259 @@
+2025-06-02 14:35:42,659 - ERROR - Nenhum dado válido encontrado para envio
+2025-06-02 14:36:57,064 - INFO - Preparando para enviar 2 valores...
+2025-06-02 14:36:57,610 - INFO - Dados enviados com sucesso!
+2025-06-02 14:38:27,536 - INFO - Preparando para enviar 2 valores...
+2025-06-02 14:38:27,777 - INFO - Dados enviados com sucesso!
+2025-06-02 14:39:16,656 - ERROR - Nenhum dado válido encontrado para envio
+2025-06-02 14:39:54,601 - ERROR - Erro ao processar arquivo Excel: single positional indexer is out-of-bounds
+2025-06-02 14:39:54,602 - ERROR - Nenhum dado válido encontrado para envio
+2025-06-02 14:40:47,785 - INFO - Preparando para enviar 2 valores...
+2025-06-02 14:40:48,011 - INFO - Dados enviados com sucesso!
+2025-06-02 14:51:15,399 - INFO - Permissões do usuário: ['F_TRACKED_ENTITY_INSTANCE_SEARCH_IN_ALL_ORGUNITS', 'F_TRACKER_IMPORTER_EXPERIMENTAL', 'ALL', 'F_USERGROUP_MANAGING_RELATIONSHIPS_ADD', 'F_USER_VIEW', 'F_GENERATE_MIN_MAX_VALUES', 'F_USER_GROUPS_READ_ONLY_ADD_MEMBERS', 'F_ORGANISATIONUNIT_MOVE', 'F_PREDICTOR_RUN', 'F_ORGANISATION_UNIT_SPLIT', 'F_IGNORE_TRACKER_REQUIRED_VALUE_VALIDATION', 'F_SKIP_DATA_IMPORT_AUDIT', 'F_RUN_VALIDATION', 'F_ORG_UNIT_PROFILE_ADD', 'F_DATAVALUE_DELETE', 'F_TRACKED_ENTITY_MERGE', 'F_IMPORT_DATA', 'F_PERFORM_ANALYTICS_EXPLAIN', 'F_ORGANISATION_UNIT_MERGE', 'F_REPLICATE_USER', 'F_LOCALE_ADD', 'F_SEND_EMAIL', 'F_DATAVALUE_ADD', 'F_INSERT_CUSTOM_JS_CSS', 'F_ENROLLMENT_CASCADE_DELETE', 'F_METADATA_IMPORT', 'F_EXPORT_EVENTS', 'F_VIEW_EVENT_ANALYTICS', 'F_VIEW_UNAPPROVED_DATA', 'F_IMPORT_EVENTS', 'F_PERFORM_MAINTENANCE', 'F_USERGROUP_MANAGING_RELATIONSHIPS_VIEW', 'F_TEI_CASCADE_DELETE', 'F_METADATA_EXPORT', 'F_EXPORT_DATA', 'F_APPROVE_DATA', 'F_ACCEPT_DATA_LOWER_LEVELS', 'F_EDIT_EXPIRED', 'F_PROGRAM_DASHBOARD_CONFIG_ADMIN', 'F_APPROVE_DATA_LOWER_LEVELS', 'F_VIEW_SERVER_INFO', 'F_UNCOMPLETE_EVENT']
+2025-06-02 14:51:16,298 - INFO - Dados enviados e verificados com sucesso!
+2025-06-02 14:51:16,299 - INFO - Resultado: {'dataSet': 'bJi2QH24rm5', 'completeDate': '2025-06-02T00:00:00.000+0000', 'period': '202501', 'orgUnit': 'QSxnM0virqc', 'dataValues': []}
+2025-06-02 15:12:19,505 - INFO - Permissões do usuário: ['F_TRACKED_ENTITY_INSTANCE_SEARCH_IN_ALL_ORGUNITS', 'F_TRACKER_IMPORTER_EXPERIMENTAL', 'ALL', 'F_USERGROUP_MANAGING_RELATIONSHIPS_ADD', 'F_USER_VIEW', 'F_GENERATE_MIN_MAX_VALUES', 'F_USER_GROUPS_READ_ONLY_ADD_MEMBERS', 'F_ORGANISATIONUNIT_MOVE', 'F_PREDICTOR_RUN', 'F_ORGANISATION_UNIT_SPLIT', 'F_IGNORE_TRACKER_REQUIRED_VALUE_VALIDATION', 'F_SKIP_DATA_IMPORT_AUDIT', 'F_RUN_VALIDATION', 'F_ORG_UNIT_PROFILE_ADD', 'F_DATAVALUE_DELETE', 'F_TRACKED_ENTITY_MERGE', 'F_IMPORT_DATA', 'F_PERFORM_ANALYTICS_EXPLAIN', 'F_ORGANISATION_UNIT_MERGE', 'F_REPLICATE_USER', 'F_LOCALE_ADD', 'F_SEND_EMAIL', 'F_DATAVALUE_ADD', 'F_INSERT_CUSTOM_JS_CSS', 'F_ENROLLMENT_CASCADE_DELETE', 'F_METADATA_IMPORT', 'F_EXPORT_EVENTS', 'F_VIEW_EVENT_ANALYTICS', 'F_VIEW_UNAPPROVED_DATA', 'F_IMPORT_EVENTS', 'F_PERFORM_MAINTENANCE', 'F_USERGROUP_MANAGING_RELATIONSHIPS_VIEW', 'F_TEI_CASCADE_DELETE', 'F_METADATA_EXPORT', 'F_EXPORT_DATA', 'F_APPROVE_DATA', 'F_ACCEPT_DATA_LOWER_LEVELS', 'F_EDIT_EXPIRED', 'F_PROGRAM_DASHBOARD_CONFIG_ADMIN', 'F_APPROVE_DATA_LOWER_LEVELS', 'F_VIEW_SERVER_INFO', 'F_UNCOMPLETE_EVENT']
+2025-06-02 15:12:20,428 - INFO - Dados enviados e verificados com sucesso!
+2025-06-02 15:12:20,428 - INFO - Resultado: {'dataSet': 'bJi2QH24rm5', 'completeDate': '2025-06-02T13:11:52.000+0000', 'period': '202501', 'orgUnit': 'QSxnM0virqc', 'dataValues': []}
+2025-06-02 15:21:06,660 - INFO - Permissões do usuário: ['F_TRACKED_ENTITY_INSTANCE_SEARCH_IN_ALL_ORGUNITS', 'F_TRACKER_IMPORTER_EXPERIMENTAL', 'ALL', 'F_USERGROUP_MANAGING_RELATIONSHIPS_ADD', 'F_USER_VIEW', 'F_GENERATE_MIN_MAX_VALUES', 'F_USER_GROUPS_READ_ONLY_ADD_MEMBERS', 'F_ORGANISATIONUNIT_MOVE', 'F_PREDICTOR_RUN', 'F_ORGANISATION_UNIT_SPLIT', 'F_IGNORE_TRACKER_REQUIRED_VALUE_VALIDATION', 'F_SKIP_DATA_IMPORT_AUDIT', 'F_RUN_VALIDATION', 'F_ORG_UNIT_PROFILE_ADD', 'F_DATAVALUE_DELETE', 'F_TRACKED_ENTITY_MERGE', 'F_IMPORT_DATA', 'F_PERFORM_ANALYTICS_EXPLAIN', 'F_ORGANISATION_UNIT_MERGE', 'F_REPLICATE_USER', 'F_LOCALE_ADD', 'F_SEND_EMAIL', 'F_DATAVALUE_ADD', 'F_INSERT_CUSTOM_JS_CSS', 'F_ENROLLMENT_CASCADE_DELETE', 'F_METADATA_IMPORT', 'F_EXPORT_EVENTS', 'F_VIEW_EVENT_ANALYTICS', 'F_VIEW_UNAPPROVED_DATA', 'F_IMPORT_EVENTS', 'F_PERFORM_MAINTENANCE', 'F_USERGROUP_MANAGING_RELATIONSHIPS_VIEW', 'F_TEI_CASCADE_DELETE', 'F_METADATA_EXPORT', 'F_EXPORT_DATA', 'F_APPROVE_DATA', 'F_ACCEPT_DATA_LOWER_LEVELS', 'F_EDIT_EXPIRED', 'F_PROGRAM_DASHBOARD_CONFIG_ADMIN', 'F_APPROVE_DATA_LOWER_LEVELS', 'F_VIEW_SERVER_INFO', 'F_UNCOMPLETE_EVENT']
+2025-06-02 15:21:07,383 - ERROR - Falha no envio: {"responseType":"ImportSummary","status":"ERROR","importOptions":{"idSchemes":{},"dryRun":false,"async":false,"importStrategy":"CREATE_AND_UPDATE","mergeMode":"REPLACE","reportMode":"FULL","skipExistingCheck":false,"sharing":false,"skipNotifications":false,"skipAudit":false,"datasetAllowsPeriods":false,"strictPeriods":false,"strictDataElements":false,"strictCategoryOptionCombos":false,"strictAttributeOptionCombos":false,"strictOrganisationUnits":false,"strictDataSetApproval":false,"strictDataSetLocking":false,"strictDataSetInputPeriods":false,"requireCategoryOptionCombo":false,"requireAttributeOptionCombo":false,"skipPatternValidation":false,"ignoreEmptyCollection":false,"force":false,"firstRowIsHeader":true,"skipLastUpdated":false,"mergeDataValues":false,"skipCache":false},"description":"Import process was aborted","importCount":{"imported":0,"updated":0,"ignored":0,"deleted":0},"conflicts":[{"object":"rZtFk3z5o9X","objects":{"dataSet":"rZtFk3z5o9X"},"value":"Data set not found or not accessible: `rZtFk3z5o9X`","errorCode":"E7600","property":"dataSet"}],"rejectedIndexes":[]}
+2025-06-02 15:21:49,485 - INFO - Preparando para enviar 2 valores...
+2025-06-02 15:21:49,975 - INFO - Dados enviados com sucesso!
+2025-06-02 16:53:20,409 - INFO - Preparando para enviar 2 valores...
+2025-06-02 16:53:20,663 - INFO - Dados enviados com sucesso!
+2025-06-02 17:03:17,864 - INFO - Preparando para enviar 3 valores para o DHIS2...
+2025-06-02 17:14:12,366 - INFO - Preparando para enviar 3 valores para o DHIS2...
+2025-06-02 17:16:54,087 - INFO - Preparando para enviar 3 valores para o DHIS2...
+2025-06-02 17:16:54,436 - INFO - Dados enviados com sucesso. Status: 200
+2025-06-02 17:16:54,437 - INFO - Dados enviados com sucesso!
+2025-06-02 17:24:12,925 - INFO - Preparando para enviar 3 valores para o DHIS2...
+2025-06-02 17:24:12,926 - INFO - Payload para envio:
+{
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-02",
+  "period": "202506",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "ZY2f7vnLoiw",
+      "value": "1"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "OZvd6zClIQV",
+      "value": "0"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "value": "2"
+    }
+  ]
+}
+2025-06-02 17:24:13,310 - INFO - Dados enviados com sucesso. Status: 200
+2025-06-02 17:24:13,311 - INFO - Resposta da API: {"responseType":"ImportSummary","status":"WARNING","importOptions":{"idSchemes":{},"dryRun":false,"async":false,"importStrategy":"CREATE_AND_UPDATE","mergeMode":"REPLACE","reportMode":"FULL","skipExistingCheck":false,"sharing":false,"skipNotifications":false,"skipAudit":false,"datasetAllowsPeriods":false,"strictPeriods":false,"strictDataElements":false,"strictCategoryOptionCombos":false,"strictAttributeOptionCombos":false,"strictOrganisationUnits":false,"strictDataSetApproval":false,"strictDataSetLocking":false,"strictDataSetInputPeriods":false,"requireCategoryOptionCombo":false,"requireAttributeOptionCombo":false,"skipPatternValidation":false,"ignoreEmptyCollection":false,"force":false,"firstRowIsHeader":true,"skipLastUpdated":false,"mergeDataValues":false,"skipCache":false},"description":"Import process completed successfully","importCount":{"imported":0,"updated":0,"ignored":3,"deleted":0},"conflicts":[{"objects":{"dataElement":"rZtFk3z5o9X","dataSet":"bJi2QH24rm5"},"value":"Period: `null` is after latest open future period: `202505` for data element: `rZtFk3z5o9X` and data set: `bJi2QH24rm5`","errorCode":"E7641","property":"period","indexes":[0,1,2]}],"rejectedIndexes":[0,1,2],"dataSetComplete":"2025-06-02"}
+2025-06-02 17:24:13,312 - INFO - Dados enviados com sucesso!
+2025-06-02 17:40:10,535 - INFO - Preparando para enviar 3 valores para o DHIS2...
+2025-06-02 17:40:10,536 - INFO - Payload para envio:
+{
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-02",
+  "period": "202501",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "ZY2f7vnLoiw",
+      "value": "1"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "OZvd6zClIQV",
+      "value": "0"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "value": "2"
+    }
+  ]
+}
+2025-06-02 17:40:10,938 - INFO - Dados enviados com sucesso. Status: 200
+2025-06-02 17:40:10,939 - INFO - Resposta da API: {"responseType":"ImportSummary","status":"SUCCESS","importOptions":{"idSchemes":{},"dryRun":false,"async":false,"importStrategy":"CREATE_AND_UPDATE","mergeMode":"REPLACE","reportMode":"FULL","skipExistingCheck":false,"sharing":false,"skipNotifications":false,"skipAudit":false,"datasetAllowsPeriods":false,"strictPeriods":false,"strictDataElements":false,"strictCategoryOptionCombos":false,"strictAttributeOptionCombos":false,"strictOrganisationUnits":false,"strictDataSetApproval":false,"strictDataSetLocking":false,"strictDataSetInputPeriods":false,"requireCategoryOptionCombo":false,"requireAttributeOptionCombo":false,"skipPatternValidation":false,"ignoreEmptyCollection":false,"force":false,"firstRowIsHeader":true,"skipLastUpdated":false,"mergeDataValues":false,"skipCache":false},"description":"Import process completed successfully","importCount":{"imported":0,"updated":3,"ignored":0,"deleted":0},"conflicts":[],"rejectedIndexes":[],"dataSetComplete":"2025-06-02"}
+2025-06-02 17:40:10,940 - INFO - Dados enviados com sucesso!
+2025-06-02 17:41:14,029 - INFO - Preparando para enviar 3 valores para o DHIS2...
+2025-06-02 17:41:14,030 - INFO - Payload para envio:
+{
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-02",
+  "period": "202501",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "ZY2f7vnLoiw",
+      "value": "1"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "OZvd6zClIQV",
+      "value": "9"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "value": "2"
+    }
+  ]
+}
+2025-06-02 17:41:14,529 - INFO - Dados enviados com sucesso. Status: 200
+2025-06-02 17:41:14,529 - INFO - Resposta da API: {"responseType":"ImportSummary","status":"SUCCESS","importOptions":{"idSchemes":{},"dryRun":false,"async":false,"importStrategy":"CREATE_AND_UPDATE","mergeMode":"REPLACE","reportMode":"FULL","skipExistingCheck":false,"sharing":false,"skipNotifications":false,"skipAudit":false,"datasetAllowsPeriods":false,"strictPeriods":false,"strictDataElements":false,"strictCategoryOptionCombos":false,"strictAttributeOptionCombos":false,"strictOrganisationUnits":false,"strictDataSetApproval":false,"strictDataSetLocking":false,"strictDataSetInputPeriods":false,"requireCategoryOptionCombo":false,"requireAttributeOptionCombo":false,"skipPatternValidation":false,"ignoreEmptyCollection":false,"force":false,"firstRowIsHeader":true,"skipLastUpdated":false,"mergeDataValues":false,"skipCache":false},"description":"Import process completed successfully","importCount":{"imported":0,"updated":3,"ignored":0,"deleted":0},"conflicts":[],"rejectedIndexes":[],"dataSetComplete":"2025-06-02"}
+2025-06-02 17:41:14,531 - INFO - Dados enviados com sucesso!
+2025-06-02 17:43:25,750 - INFO - Preparando para enviar 3 valores para o DHIS2...
+2025-06-02 17:43:25,751 - INFO - Payload para envio:
+{
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-02",
+  "period": "202501",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "ZY2f7vnLoiw",
+      "value": "1"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "OZvd6zClIQV",
+      "value": "9"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "value": "2"
+    }
+  ]
+}
+2025-06-02 17:43:26,317 - ERROR - Erro no envio. Status: 401, Response: {"httpStatus":"Unauthorized","httpStatusCode":401,"status":"ERROR","message":"Unauthorized"}
+2025-06-02 17:43:26,318 - ERROR - Falha ao enviar dados para o DHIS2.
+2025-06-02 17:43:47,491 - INFO - Preparando para enviar 3 valores para o DHIS2...
+2025-06-02 17:43:47,493 - INFO - Payload para envio:
+{
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-02",
+  "period": "202501",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "ZY2f7vnLoiw",
+      "value": "1"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "OZvd6zClIQV",
+      "value": "9"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "value": "2"
+    }
+  ]
+}
+2025-06-02 17:43:47,923 - INFO - Dados enviados com sucesso. Status: 200
+2025-06-02 17:43:47,924 - INFO - Resposta da API: {"responseType":"ImportSummary","status":"SUCCESS","importOptions":{"idSchemes":{},"dryRun":false,"async":false,"importStrategy":"CREATE_AND_UPDATE","mergeMode":"REPLACE","reportMode":"FULL","skipExistingCheck":false,"sharing":false,"skipNotifications":false,"skipAudit":false,"datasetAllowsPeriods":false,"strictPeriods":false,"strictDataElements":false,"strictCategoryOptionCombos":false,"strictAttributeOptionCombos":false,"strictOrganisationUnits":false,"strictDataSetApproval":false,"strictDataSetLocking":false,"strictDataSetInputPeriods":false,"requireCategoryOptionCombo":false,"requireAttributeOptionCombo":false,"skipPatternValidation":false,"ignoreEmptyCollection":false,"force":false,"firstRowIsHeader":true,"skipLastUpdated":false,"mergeDataValues":false,"skipCache":false},"description":"Import process completed successfully","importCount":{"imported":0,"updated":3,"ignored":0,"deleted":0},"conflicts":[],"rejectedIndexes":[],"dataSetComplete":"2025-06-02"}
+2025-06-02 17:43:47,925 - INFO - Dados enviados com sucesso!
+2025-06-02 17:49:14,901 - INFO - Preparando para enviar 3 valores para o DHIS2...
+2025-06-02 17:49:14,901 - INFO - Payload para envio:
+{
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-02",
+  "period": "202501",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "ZY2f7vnLoiw",
+      "value": "1",
+      "attributeOptionCombo": "HllvX50cXC0"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "OZvd6zClIQV",
+      "value": "9",
+      "attributeOptionCombo": "HllvX50cXC0"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "value": "2",
+      "attributeOptionCombo": "HllvX50cXC0"
+    }
+  ]
+}
+2025-06-02 17:49:15,250 - INFO - Dados enviados com sucesso. Status: 200
+2025-06-02 17:49:15,251 - INFO - Resposta da API: {"responseType":"ImportSummary","status":"SUCCESS","importOptions":{"idSchemes":{},"dryRun":false,"async":false,"importStrategy":"CREATE_AND_UPDATE","mergeMode":"REPLACE","reportMode":"FULL","skipExistingCheck":false,"sharing":false,"skipNotifications":false,"skipAudit":false,"datasetAllowsPeriods":false,"strictPeriods":false,"strictDataElements":false,"strictCategoryOptionCombos":false,"strictAttributeOptionCombos":false,"strictOrganisationUnits":false,"strictDataSetApproval":false,"strictDataSetLocking":false,"strictDataSetInputPeriods":false,"requireCategoryOptionCombo":false,"requireAttributeOptionCombo":false,"skipPatternValidation":false,"ignoreEmptyCollection":false,"force":false,"firstRowIsHeader":true,"skipLastUpdated":false,"mergeDataValues":false,"skipCache":false},"description":"Import process completed successfully","importCount":{"imported":0,"updated":3,"ignored":0,"deleted":0},"conflicts":[],"rejectedIndexes":[],"dataSetComplete":"2025-06-02"}
+2025-06-02 17:49:15,253 - INFO - Dados enviados com sucesso!
+2025-06-02 17:49:59,385 - INFO - Preparando para enviar 3 valores para o DHIS2...
+2025-06-02 17:49:59,385 - INFO - Payload para envio:
+{
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-02",
+  "period": "202505",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "ZY2f7vnLoiw",
+      "value": "1",
+      "attributeOptionCombo": "HllvX50cXC0"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "OZvd6zClIQV",
+      "value": "9",
+      "attributeOptionCombo": "HllvX50cXC0"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "value": "2",
+      "attributeOptionCombo": "HllvX50cXC0"
+    }
+  ]
+}
+2025-06-02 17:49:59,944 - INFO - Dados enviados com sucesso. Status: 200
+2025-06-02 17:49:59,945 - INFO - Resposta da API: {"responseType":"ImportSummary","status":"SUCCESS","importOptions":{"idSchemes":{},"dryRun":false,"async":false,"importStrategy":"CREATE_AND_UPDATE","mergeMode":"REPLACE","reportMode":"FULL","skipExistingCheck":false,"sharing":false,"skipNotifications":false,"skipAudit":false,"datasetAllowsPeriods":false,"strictPeriods":false,"strictDataElements":false,"strictCategoryOptionCombos":false,"strictAttributeOptionCombos":false,"strictOrganisationUnits":false,"strictDataSetApproval":false,"strictDataSetLocking":false,"strictDataSetInputPeriods":false,"requireCategoryOptionCombo":false,"requireAttributeOptionCombo":false,"skipPatternValidation":false,"ignoreEmptyCollection":false,"force":false,"firstRowIsHeader":true,"skipLastUpdated":false,"mergeDataValues":false,"skipCache":false},"description":"Import process completed successfully","importCount":{"imported":3,"updated":0,"ignored":0,"deleted":0},"conflicts":[],"rejectedIndexes":[],"dataSetComplete":"2025-06-02"}
+2025-06-02 17:49:59,947 - INFO - Dados enviados com sucesso!
+2025-06-02 17:54:52,670 - INFO - Preparando para enviar 3 valores para o DHIS2...
+2025-06-02 17:54:52,671 - INFO - Payload para envio:
+{
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-02",
+  "period": "202505",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "ZY2f7vnLoiw",
+      "value": "1",
+      "attributeOptionCombo": "HllvX50cXC0"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "OZvd6zClIQV",
+      "value": "9",
+      "attributeOptionCombo": "HllvX50cXC0"
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "value": "2",
+      "attributeOptionCombo": "HllvX50cXC0"
+    }
+  ]
+}
+2025-06-02 17:54:53,114 - INFO - Dados enviados com sucesso. Status: 200
+2025-06-02 17:54:53,116 - INFO - Resposta da API: {"responseType":"ImportSummary","status":"SUCCESS","importOptions":{"idSchemes":{},"dryRun":false,"async":false,"importStrategy":"CREATE_AND_UPDATE","mergeMode":"REPLACE","reportMode":"FULL","skipExistingCheck":false,"sharing":false,"skipNotifications":false,"skipAudit":false,"datasetAllowsPeriods":false,"strictPeriods":false,"strictDataElements":false,"strictCategoryOptionCombos":false,"strictAttributeOptionCombos":false,"strictOrganisationUnits":false,"strictDataSetApproval":false,"strictDataSetLocking":false,"strictDataSetInputPeriods":false,"requireCategoryOptionCombo":false,"requireAttributeOptionCombo":false,"skipPatternValidation":false,"ignoreEmptyCollection":false,"force":false,"firstRowIsHeader":true,"skipLastUpdated":false,"mergeDataValues":false,"skipCache":false},"description":"Import process completed successfully","importCount":{"imported":0,"updated":3,"ignored":0,"deleted":0},"conflicts":[],"rejectedIndexes":[],"dataSetComplete":"2025-06-02"}
+2025-06-02 17:54:53,117 - INFO - Dados enviados com sucesso!
