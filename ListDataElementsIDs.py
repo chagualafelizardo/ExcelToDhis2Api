@@ -2,71 +2,90 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 # Configurações de acesso
-BASE_URL = "http://197.249.4.129:8088/api/29"
+BASE_URL = "http://197.249.4.129:8088/api/29" # Servidor DHIS2 DOD
+# BASE_URL = "http://196.22.54.214:8088/api/29" # Servidor eLOS
 USERNAME = "admin"
-PASSWORD = "Chaguala.123"
+PASSWORD = "Chaguala.123" # Senha Servidor DHIS2 
+# PASSWORD = "Abalate.123" # Senha Servidor DHIS2 
 DATASET_ID = "bJi2QH24rm5"  # Ex: TX_NEW
 
-# Autenticação
+
+# Autenticação básica
 auth = HTTPBasicAuth(USERNAME, PASSWORD)
 
 def get_dataset_elements():
-    """Obtém todos os dataElements do dataset específico, incluindo categorias"""
+    """Obtém os dataElements e suas categorias a partir de um dataset"""
     try:
         response = requests.get(
             f"{BASE_URL}/dataSets/{DATASET_ID}",
             params={
-                "fields": "id,name,dataSetElements[dataElement[id,name,categoryCombo[categoryOptionCombos[id,name,categoryOptions[id,name]]]]]"
+                "fields": "id,name,dataSetElements[dataElement[id,name,"
+                          "categoryCombo[categoryOptionCombos[id,name,"
+                          "categoryOptions[id,name]]]]]"
             },
-            auth=auth
+            auth=auth,
+            timeout=30
         )
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
-        print(f"Erro ao obter dataset: {str(e)}")
+        print(f"[ERRO] Falha ao obter dados do dataset: {e}")
         return None
 
-def main():
-    dataset = get_dataset_elements()
-    if not dataset:
-        return
+def extract_combinations(dataset):
+    """Extrai todas as combinações de categorias de todos os dataElements"""
+    combinations = []
+    unique_combo_ids = set()
 
-    dataset_name = dataset.get("name", "NomeDesconhecido")
-
-    print(f"\nDataSet: {dataset_name}")
-
-    data_elements = dataset.get("dataSetElements", [])
-
-    if not data_elements:
-        print("Nenhum dataElement encontrado no dataset.")
-        return
-
-    for dse in data_elements:
-        data_element = dse["dataElement"]
+    for dse in dataset.get("dataSetElements", []):
+        data_element = dse.get("dataElement", {})
         element_name = data_element.get("name", "SemNome")
         element_id = data_element.get("id")
 
-        print(f"\nIndicador: {element_name} (ID: {element_id})")
-
-        combos = data_element["categoryCombo"].get("categoryOptionCombos", [])
-        if not combos:
-            print("  Nenhum combo encontrado.")
-            continue
-
-        # Filtrar apenas combos com 1 categoria (ex: uma única faixa etária)
-        single_category_combos = [
-            combo for combo in combos if len(combo.get("categoryOptions", [])) == 1
-        ]
-
-        if not single_category_combos:
-            print("  Nenhum combo individual encontrado.")
-            continue
-
-        for combo in single_category_combos:
-            category_option = combo["categoryOptions"][0]
-            readable_name = category_option["name"]
+        combos = data_element.get("categoryCombo", {}).get("categoryOptionCombos", [])
+        for combo in combos:
             combo_id = combo["id"]
-            print(f"{dataset_name} | {readable_name} => ID: {combo_id}")
+            combo_name = combo.get("name", "SemNome")
+
+            if combo_id in unique_combo_ids:
+                continue  # Ignora combos repetidos
+
+            unique_combo_ids.add(combo_id)
+
+            category_options = combo.get("categoryOptions", [])
+            option_names = [opt["name"] for opt in category_options]
+
+            combinations.append({
+                "combo_id": combo_id,
+                "combo_name": combo_name,
+                "category_options": option_names,
+                "data_element_name": element_name,
+                "data_element_id": element_id
+            })
+
+    return combinations
+
+def main():
+    print(f"Conectando ao servidor para buscar combinações de categorias do dataset '{DATASET_ID}'...\n")
+
+    dataset = get_dataset_elements()
+    if not dataset:
+        print("Não foi possível recuperar o dataset.")
+        return
+
+    dataset_name = dataset.get("name", "Desconhecido")
+    print(f"=== Dataset: {dataset_name} ===\n")
+
+    combos = extract_combinations(dataset)
+
+    if not combos:
+        print("Nenhuma combinação de categorias encontrada.")
+        return
+
+    for combo in combos:
+        print(f"● DataElement: {combo['data_element_name']} (ID: {combo['data_element_id']})")
+        print(f"  ↳ Combo: {combo['combo_name']} (ID: {combo['combo_id']})")
+        print(f"     - Categorias: {', '.join(combo['category_options'])}\n")
 
 if __name__ == "__main__":
     main()
