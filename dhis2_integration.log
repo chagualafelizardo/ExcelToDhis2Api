@@ -781,3 +781,215 @@ Index: []
 2025-06-05 15:20:24,756 - INFO - === Iniciando processo de integração ===
 2025-06-05 15:20:24,939 - INFO - Dados carregados do Excel:
 2025-06-05 15:20:24,940 - ERROR - Falha ao ler arquivo Excel: Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+2025-06-05 15:28:59,669 - INFO - === Iniciando processo de integração ===
+2025-06-05 15:28:59,846 - INFO - Dados carregados do Excel:
+2025-06-05 15:28:59,853 - INFO - +----+-----------------------------+
+|    |   CT_TX_NEW - Breastfeeding |
++====+=============================+
+|  0 |                           1 |
++----+-----------------------------+
+2025-06-05 15:28:59,853 - INFO - Dado preparado: CT_TX_NEW - Breastfeeding → 1
+2025-06-05 15:28:59,854 - INFO - Payload preparado:
+2025-06-05 15:28:59,854 - INFO - {
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-05",
+  "period": "202501",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "VPYqcEW8shs",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "1"
+    }
+  ]
+}
+2025-06-05 15:29:00,088 - INFO - ✅ Dados enviados com sucesso!
+2025-06-05 15:29:00,088 - INFO - Resumo: Import process completed successfully
+2025-06-05 15:29:00,089 - INFO - Estatísticas: {
+  "imported": 0,
+  "updated": 1,
+  "ignored": 0,
+  "deleted": 0
+}
+2025-06-05 15:29:00,326 - INFO - Verificação de dados no DHIS2:
+2025-06-05 15:29:00,327 - INFO - {
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-05T00:00:00.000+0000",
+  "period": "202501",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "period": "202501",
+      "orgUnit": "QSxnM0virqc",
+      "categoryOptionCombo": "ZY2f7vnLoiw",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "1",
+      "storedBy": "admin",
+      "created": "2025-06-02T15:14:12.000+0000",
+      "lastUpdated": "2025-06-02T15:14:12.000+0000",
+      "comment": null,
+      "followup": false
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "period": "202501",
+      "orgUnit": "QSxnM0virqc",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "2",
+      "storedBy": "admin",
+      "created": "2025-06-02T15:14:12.000+0000",
+      "lastUpdated": "2025-06-02T15:14:12.000+0000",
+      "comment": null,
+      "followup": false
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "period": "202501",
+      "orgUnit": "QSxnM0virqc",
+      "categoryOptionCombo": "OZvd6zClIQV",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "9",
+      "storedBy": "admin",
+      "created": "2025-06-02T15:14:12.000+0000",
+      "lastUpdated": "2025-06-02T15:41:14.000+0000",
+      "comment": null,
+      "followup": false
+    },
+    {
+      "dataElement": "VPYqcEW8shs",
+      "period": "202501",
+      "orgUnit": "QSxnM0virqc",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "500",
+      "storedBy": "admin",
+      "created": "2025-06-05T12:14:18.000+0000",
+      "lastUpdated": "2025-06-05T13:15:58.000+0000",
+      "comment": null,
+      "followup": false
+    },
+    {
+      "dataElement": "VPYqcEW8shs",
+      "period": "202501",
+      "orgUnit": "QSxnM0virqc",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "1",
+      "storedBy": "admin",
+      "created": "2025-06-05T12:48:01.000+0000",
+      "lastUpdated": "2025-06-05T13:29:00.000+0000",
+      "comment": null,
+      "followup": false
+    }
+  ]
+}
+2025-06-05 15:29:00,328 - INFO - === Processo concluído ===
+2025-06-05 15:30:22,317 - INFO - === Iniciando processo de integração ===
+2025-06-05 15:30:22,484 - INFO - Dados carregados do Excel:
+2025-06-05 15:30:22,492 - INFO - +----+-----------------------------+
+|    |   CT_TX_NEW - Breastfeeding |
++====+=============================+
+|  0 |                           2 |
++----+-----------------------------+
+2025-06-05 15:30:22,493 - INFO - Dado preparado: CT_TX_NEW - Breastfeeding → 2
+2025-06-05 15:30:22,493 - INFO - Payload preparado:
+2025-06-05 15:30:22,493 - INFO - {
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-05",
+  "period": "202501",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "VPYqcEW8shs",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "2"
+    }
+  ]
+}
+2025-06-05 15:30:22,778 - INFO - ✅ Dados enviados com sucesso!
+2025-06-05 15:30:22,779 - INFO - Resumo: Import process completed successfully
+2025-06-05 15:30:22,779 - INFO - Estatísticas: {
+  "imported": 0,
+  "updated": 1,
+  "ignored": 0,
+  "deleted": 0
+}
+2025-06-05 15:30:23,003 - INFO - Verificação de dados no DHIS2:
+2025-06-05 15:30:23,004 - INFO - {
+  "dataSet": "bJi2QH24rm5",
+  "completeDate": "2025-06-05T00:00:00.000+0000",
+  "period": "202501",
+  "orgUnit": "QSxnM0virqc",
+  "dataValues": [
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "period": "202501",
+      "orgUnit": "QSxnM0virqc",
+      "categoryOptionCombo": "ZY2f7vnLoiw",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "1",
+      "storedBy": "admin",
+      "created": "2025-06-02T15:14:12.000+0000",
+      "lastUpdated": "2025-06-02T15:14:12.000+0000",
+      "comment": null,
+      "followup": false
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "period": "202501",
+      "orgUnit": "QSxnM0virqc",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "2",
+      "storedBy": "admin",
+      "created": "2025-06-02T15:14:12.000+0000",
+      "lastUpdated": "2025-06-02T15:14:12.000+0000",
+      "comment": null,
+      "followup": false
+    },
+    {
+      "dataElement": "rZtFk3z5o9X",
+      "period": "202501",
+      "orgUnit": "QSxnM0virqc",
+      "categoryOptionCombo": "OZvd6zClIQV",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "9",
+      "storedBy": "admin",
+      "created": "2025-06-02T15:14:12.000+0000",
+      "lastUpdated": "2025-06-02T15:41:14.000+0000",
+      "comment": null,
+      "followup": false
+    },
+    {
+      "dataElement": "VPYqcEW8shs",
+      "period": "202501",
+      "orgUnit": "QSxnM0virqc",
+      "categoryOptionCombo": "B32kr1PRiNS",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "500",
+      "storedBy": "admin",
+      "created": "2025-06-05T12:14:18.000+0000",
+      "lastUpdated": "2025-06-05T13:15:58.000+0000",
+      "comment": null,
+      "followup": false
+    },
+    {
+      "dataElement": "VPYqcEW8shs",
+      "period": "202501",
+      "orgUnit": "QSxnM0virqc",
+      "categoryOptionCombo": "HllvX50cXC0",
+      "attributeOptionCombo": "HllvX50cXC0",
+      "value": "2",
+      "storedBy": "admin",
+      "created": "2025-06-05T12:48:01.000+0000",
+      "lastUpdated": "2025-06-05T13:30:22.000+0000",
+      "comment": null,
+      "followup": false
+    }
+  ]
+}
+2025-06-05 15:30:23,006 - INFO - === Processo concluído ===
