@@ -1,0 +1,1043 @@
+2025-09-09 13:31:43,830 - INFO - === DEBUG COMPLETO DO PROBLEMA DHIS2 ===
+2025-09-09 13:31:43,830 - INFO - === DEBUG COMPLETO DOS OPTION SETS ===
+2025-09-09 13:31:46,304 - INFO - 
+🔍 OPTION SET SEXO (Sexo):
+2025-09-09 13:31:46,304 - INFO -    'M' → 'Masculino'
+2025-09-09 13:31:46,305 - INFO -    'Masculino' → 'Masculino'
+2025-09-09 13:31:46,305 - INFO -    'uZXOVhZrhq3' → 'Masculino'
+2025-09-09 13:31:46,305 - INFO -    'F' → 'Feminino'
+2025-09-09 13:31:46,305 - INFO -    'Feminino' → 'Feminino'
+2025-09-09 13:31:46,306 - INFO -    'K1Jegbds502' → 'Feminino'
+2025-09-09 13:31:46,848 - INFO - 
+🔍 OPTION SET ESTADIO OMS (EstadioOMS):
+2025-09-09 13:31:46,849 - INFO -    'Estadio OMS I' → 'i'
+2025-09-09 13:31:46,850 - INFO -    'i' → 'i'
+2025-09-09 13:31:46,850 - INFO -    'PL5bozapNFK' → 'i'
+2025-09-09 13:31:46,850 - INFO -    'Estadio OMS II' → 'ii'
+2025-09-09 13:31:46,850 - INFO -    'ii' → 'ii'
+2025-09-09 13:31:46,850 - INFO -    'AsWZEl8teN5' → 'ii'
+2025-09-09 13:31:46,851 - INFO -    'Estadio OMS III' → 'iii'
+2025-09-09 13:31:46,851 - INFO -    'iii' → 'iii'
+2025-09-09 13:31:46,851 - INFO -    'F9kuHDRE6VQ' → 'iii'
+2025-09-09 13:31:46,851 - INFO -    'Estadio OMS IV' → 'iv'
+2025-09-09 13:31:46,851 - INFO -    'iv' → 'iv'
+2025-09-09 13:31:46,851 - INFO -    'ZTP6DQB4nsT' → 'iv'
+2025-09-09 13:31:46,852 - INFO - 
+=== TESTANDO TODOS OS VALORES POSSÍVEIS ===
+2025-09-09 13:31:47,118 - INFO - 
+🧪 TESTANDO: 'M' no option set Sexo
+2025-09-09 13:31:47,118 - INFO - ✅ ENCONTRADO: 'M' → 'Masculino'
+2025-09-09 13:31:47,346 - INFO - 
+🧪 TESTANDO: 'F' no option set Sexo
+2025-09-09 13:31:47,346 - INFO - ✅ ENCONTRADO: 'F' → 'Feminino'
+2025-09-09 13:31:47,535 - INFO - 
+🧪 TESTANDO: 'Male' no option set Sexo
+2025-09-09 13:31:47,535 - INFO - ❌ NÃO ENCONTRADO: 'Male'
+2025-09-09 13:31:47,536 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 13:31:48,007 - INFO - 
+🧪 TESTANDO: 'Female' no option set Sexo
+2025-09-09 13:31:48,008 - INFO - ❌ NÃO ENCONTRADO: 'Female'
+2025-09-09 13:31:48,008 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 13:31:48,308 - INFO - 
+🧪 TESTANDO: 'Masculino' no option set Sexo
+2025-09-09 13:31:48,309 - INFO - ✅ ENCONTRADO: 'Masculino' → 'Masculino'
+2025-09-09 13:31:48,534 - INFO - 
+🧪 TESTANDO: 'Feminino' no option set Sexo
+2025-09-09 13:31:48,535 - INFO - ✅ ENCONTRADO: 'Feminino' → 'Feminino'
+2025-09-09 13:31:48,706 - INFO - 
+🧪 TESTANDO: 'm' no option set Sexo
+2025-09-09 13:31:48,706 - INFO - ✅ ENCONTRADO (case insensitive): 'm' → 'Masculino'
+2025-09-09 13:31:48,887 - INFO - 
+🧪 TESTANDO: 'f' no option set Sexo
+2025-09-09 13:31:48,887 - INFO - ✅ ENCONTRADO (case insensitive): 'f' → 'Feminino'
+2025-09-09 13:31:49,166 - INFO - 
+🧪 TESTANDO: 'Estadio OMS I' no option set EstadioOMS
+2025-09-09 13:31:49,167 - INFO - ✅ ENCONTRADO: 'Estadio OMS I' → 'i'
+2025-09-09 13:31:49,486 - INFO - 
+🧪 TESTANDO: 'Estadio OMS II' no option set EstadioOMS
+2025-09-09 13:31:49,486 - INFO - ✅ ENCONTRADO: 'Estadio OMS II' → 'ii'
+2025-09-09 13:31:49,743 - INFO - 
+🧪 TESTANDO: 'Estadio OMS III' no option set EstadioOMS
+2025-09-09 13:31:49,743 - INFO - ✅ ENCONTRADO: 'Estadio OMS III' → 'iii'
+2025-09-09 13:31:50,035 - INFO - 
+🧪 TESTANDO: 'Estadio OMS IV' no option set EstadioOMS
+2025-09-09 13:31:50,035 - INFO - ✅ ENCONTRADO: 'Estadio OMS IV' → 'iv'
+2025-09-09 13:31:50,384 - INFO - 
+🧪 TESTANDO: 'OMS I' no option set EstadioOMS
+2025-09-09 13:31:50,385 - INFO - ❌ NÃO ENCONTRADO: 'OMS I'
+2025-09-09 13:31:50,386 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:31:50,588 - INFO - 
+🧪 TESTANDO: 'OMS II' no option set EstadioOMS
+2025-09-09 13:31:50,589 - INFO - ❌ NÃO ENCONTRADO: 'OMS II'
+2025-09-09 13:31:50,589 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:31:50,886 - INFO - 
+🧪 TESTANDO: 'OMS III' no option set EstadioOMS
+2025-09-09 13:31:50,886 - INFO - ❌ NÃO ENCONTRADO: 'OMS III'
+2025-09-09 13:31:50,887 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:31:51,127 - INFO - 
+🧪 TESTANDO: 'OMS IV' no option set EstadioOMS
+2025-09-09 13:31:51,127 - INFO - ❌ NÃO ENCONTRADO: 'OMS IV'
+2025-09-09 13:31:51,128 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:31:51,327 - INFO - 
+🧪 TESTANDO: 'I' no option set EstadioOMS
+2025-09-09 13:31:51,328 - INFO - ✅ ENCONTRADO (case insensitive): 'I' → 'i'
+2025-09-09 13:31:51,529 - INFO - 
+🧪 TESTANDO: 'II' no option set EstadioOMS
+2025-09-09 13:31:51,530 - INFO - ✅ ENCONTRADO (case insensitive): 'II' → 'ii'
+2025-09-09 13:31:51,810 - INFO - 
+🧪 TESTANDO: 'III' no option set EstadioOMS
+2025-09-09 13:31:51,810 - INFO - ✅ ENCONTRADO (case insensitive): 'III' → 'iii'
+2025-09-09 13:31:52,064 - INFO - 
+🧪 TESTANDO: 'IV' no option set EstadioOMS
+2025-09-09 13:31:52,065 - INFO - ✅ ENCONTRADO (case insensitive): 'IV' → 'iv'
+2025-09-09 13:31:52,243 - INFO - 
+🧪 TESTANDO: 'i' no option set EstadioOMS
+2025-09-09 13:31:52,243 - INFO - ✅ ENCONTRADO: 'i' → 'i'
+2025-09-09 13:31:52,437 - INFO - 
+🧪 TESTANDO: 'ii' no option set EstadioOMS
+2025-09-09 13:31:52,438 - INFO - ✅ ENCONTRADO: 'ii' → 'ii'
+2025-09-09 13:31:52,639 - INFO - 
+🧪 TESTANDO: 'iii' no option set EstadioOMS
+2025-09-09 13:31:52,640 - INFO - ✅ ENCONTRADO: 'iii' → 'iii'
+2025-09-09 13:31:52,828 - INFO - 
+🧪 TESTANDO: 'iv' no option set EstadioOMS
+2025-09-09 13:31:52,829 - INFO - ✅ ENCONTRADO: 'iv' → 'iv'
+2025-09-09 13:31:52,829 - INFO - 
+=== VERIFICANDO VINCULO DOS ATRIBUTOS COM OPTION SETS ===
+2025-09-09 13:32:06,356 - INFO - === DEBUG COMPLETO DO PROBLEMA DHIS2 ===
+2025-09-09 13:32:06,356 - INFO - === DEBUG COMPLETO DOS OPTION SETS ===
+2025-09-09 13:32:06,836 - INFO - 
+🔍 OPTION SET SEXO (Sexo):
+2025-09-09 13:32:06,837 - INFO -    'M' → 'Masculino'
+2025-09-09 13:32:06,837 - INFO -    'Masculino' → 'Masculino'
+2025-09-09 13:32:06,838 - INFO -    'uZXOVhZrhq3' → 'Masculino'
+2025-09-09 13:32:06,838 - INFO -    'F' → 'Feminino'
+2025-09-09 13:32:06,838 - INFO -    'Feminino' → 'Feminino'
+2025-09-09 13:32:06,839 - INFO -    'K1Jegbds502' → 'Feminino'
+2025-09-09 13:32:07,051 - INFO - 
+🔍 OPTION SET ESTADIO OMS (EstadioOMS):
+2025-09-09 13:32:07,052 - INFO -    'Estadio OMS I' → 'i'
+2025-09-09 13:32:07,052 - INFO -    'i' → 'i'
+2025-09-09 13:32:07,052 - INFO -    'PL5bozapNFK' → 'i'
+2025-09-09 13:32:07,052 - INFO -    'Estadio OMS II' → 'ii'
+2025-09-09 13:32:07,053 - INFO -    'ii' → 'ii'
+2025-09-09 13:32:07,053 - INFO -    'AsWZEl8teN5' → 'ii'
+2025-09-09 13:32:07,053 - INFO -    'Estadio OMS III' → 'iii'
+2025-09-09 13:32:07,053 - INFO -    'iii' → 'iii'
+2025-09-09 13:32:07,053 - INFO -    'F9kuHDRE6VQ' → 'iii'
+2025-09-09 13:32:07,053 - INFO -    'Estadio OMS IV' → 'iv'
+2025-09-09 13:32:07,054 - INFO -    'iv' → 'iv'
+2025-09-09 13:32:07,054 - INFO -    'ZTP6DQB4nsT' → 'iv'
+2025-09-09 13:32:07,054 - INFO - 
+=== TESTANDO TODOS OS VALORES POSSÍVEIS ===
+2025-09-09 13:32:07,251 - INFO - 
+🧪 TESTANDO: 'M' no option set Sexo
+2025-09-09 13:32:07,252 - INFO - ✅ ENCONTRADO: 'M' → 'Masculino'
+2025-09-09 13:32:07,435 - INFO - 
+🧪 TESTANDO: 'F' no option set Sexo
+2025-09-09 13:32:07,436 - INFO - ✅ ENCONTRADO: 'F' → 'Feminino'
+2025-09-09 13:32:07,882 - INFO - 
+🧪 TESTANDO: 'Male' no option set Sexo
+2025-09-09 13:32:07,883 - INFO - ❌ NÃO ENCONTRADO: 'Male'
+2025-09-09 13:32:07,883 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 13:32:08,131 - INFO - 
+🧪 TESTANDO: 'Female' no option set Sexo
+2025-09-09 13:32:08,132 - INFO - ❌ NÃO ENCONTRADO: 'Female'
+2025-09-09 13:32:08,132 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 13:32:08,446 - INFO - 
+🧪 TESTANDO: 'Masculino' no option set Sexo
+2025-09-09 13:32:08,446 - INFO - ✅ ENCONTRADO: 'Masculino' → 'Masculino'
+2025-09-09 13:32:08,663 - INFO - 
+🧪 TESTANDO: 'Feminino' no option set Sexo
+2025-09-09 13:32:08,663 - INFO - ✅ ENCONTRADO: 'Feminino' → 'Feminino'
+2025-09-09 13:32:08,954 - INFO - 
+🧪 TESTANDO: 'm' no option set Sexo
+2025-09-09 13:32:08,954 - INFO - ✅ ENCONTRADO (case insensitive): 'm' → 'Masculino'
+2025-09-09 13:32:09,161 - INFO - 
+🧪 TESTANDO: 'f' no option set Sexo
+2025-09-09 13:32:09,162 - INFO - ✅ ENCONTRADO (case insensitive): 'f' → 'Feminino'
+2025-09-09 13:32:09,472 - INFO - 
+🧪 TESTANDO: 'Estadio OMS I' no option set EstadioOMS
+2025-09-09 13:32:09,472 - INFO - ✅ ENCONTRADO: 'Estadio OMS I' → 'i'
+2025-09-09 13:32:09,649 - INFO - 
+🧪 TESTANDO: 'Estadio OMS II' no option set EstadioOMS
+2025-09-09 13:32:09,650 - INFO - ✅ ENCONTRADO: 'Estadio OMS II' → 'ii'
+2025-09-09 13:32:09,923 - INFO - 
+🧪 TESTANDO: 'Estadio OMS III' no option set EstadioOMS
+2025-09-09 13:32:09,924 - INFO - ✅ ENCONTRADO: 'Estadio OMS III' → 'iii'
+2025-09-09 13:32:10,212 - INFO - 
+🧪 TESTANDO: 'Estadio OMS IV' no option set EstadioOMS
+2025-09-09 13:32:10,213 - INFO - ✅ ENCONTRADO: 'Estadio OMS IV' → 'iv'
+2025-09-09 13:32:10,416 - INFO - 
+🧪 TESTANDO: 'OMS I' no option set EstadioOMS
+2025-09-09 13:32:10,416 - INFO - ❌ NÃO ENCONTRADO: 'OMS I'
+2025-09-09 13:32:10,417 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:32:10,638 - INFO - 
+🧪 TESTANDO: 'OMS II' no option set EstadioOMS
+2025-09-09 13:32:10,638 - INFO - ❌ NÃO ENCONTRADO: 'OMS II'
+2025-09-09 13:32:10,639 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:32:10,837 - INFO - 
+🧪 TESTANDO: 'OMS III' no option set EstadioOMS
+2025-09-09 13:32:10,838 - INFO - ❌ NÃO ENCONTRADO: 'OMS III'
+2025-09-09 13:32:10,838 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:32:11,028 - INFO - 
+🧪 TESTANDO: 'OMS IV' no option set EstadioOMS
+2025-09-09 13:32:11,028 - INFO - ❌ NÃO ENCONTRADO: 'OMS IV'
+2025-09-09 13:32:11,028 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:32:11,253 - INFO - 
+🧪 TESTANDO: 'I' no option set EstadioOMS
+2025-09-09 13:32:11,254 - INFO - ✅ ENCONTRADO (case insensitive): 'I' → 'i'
+2025-09-09 13:32:11,434 - INFO - 
+🧪 TESTANDO: 'II' no option set EstadioOMS
+2025-09-09 13:32:11,434 - INFO - ✅ ENCONTRADO (case insensitive): 'II' → 'ii'
+2025-09-09 13:32:11,643 - INFO - 
+🧪 TESTANDO: 'III' no option set EstadioOMS
+2025-09-09 13:32:11,643 - INFO - ✅ ENCONTRADO (case insensitive): 'III' → 'iii'
+2025-09-09 13:32:12,129 - INFO - 
+🧪 TESTANDO: 'IV' no option set EstadioOMS
+2025-09-09 13:32:12,130 - INFO - ✅ ENCONTRADO (case insensitive): 'IV' → 'iv'
+2025-09-09 13:32:12,322 - INFO - 
+🧪 TESTANDO: 'i' no option set EstadioOMS
+2025-09-09 13:32:12,323 - INFO - ✅ ENCONTRADO: 'i' → 'i'
+2025-09-09 13:32:12,522 - INFO - 
+🧪 TESTANDO: 'ii' no option set EstadioOMS
+2025-09-09 13:32:12,522 - INFO - ✅ ENCONTRADO: 'ii' → 'ii'
+2025-09-09 13:32:12,719 - INFO - 
+🧪 TESTANDO: 'iii' no option set EstadioOMS
+2025-09-09 13:32:12,720 - INFO - ✅ ENCONTRADO: 'iii' → 'iii'
+2025-09-09 13:32:13,084 - INFO - 
+🧪 TESTANDO: 'iv' no option set EstadioOMS
+2025-09-09 13:32:13,085 - INFO - ✅ ENCONTRADO: 'iv' → 'iv'
+2025-09-09 13:32:13,085 - INFO - 
+=== VERIFICANDO VINCULO DOS ATRIBUTOS COM OPTION SETS ===
+2025-09-09 13:32:13,249 - ERROR - Erro ao obter atributo jCdc85LhrtI: 404
+2025-09-09 13:32:13,435 - ERROR - Erro ao obter atributo Gn8SvTBWt9K: 404
+2025-09-09 13:32:13,436 - INFO - 
+=== COMANDO CURL PARA TESTE MANUAL ===
+2025-09-09 13:32:13,436 - INFO - Execute este comando para testar manualmente:
+2025-09-09 13:32:13,436 - INFO - curl -X POST 'http://197.249.4.129:8088/api/29/trackedEntityInstances' \
+2025-09-09 13:32:13,437 - INFO -   -H 'Content-Type: application/json' \
+2025-09-09 13:32:13,437 - INFO -   -u 'admin:Chaguala.123' \
+2025-09-09 13:32:13,438 - INFO -   -d '{"trackedEntityInstances":[{"trackedEntityInstance":"test-001","trackedEntityType":"I1P2bB5OLA9","orgUnit":"P3rkRiVWkDI","attributes":[{"attribute":"jCdc85LhrtI","value":"M"},{"attribute":"Gn8SvTBWt9K","value":"Estadio OMS I"}],"enrollments":[{"enrollment":"test-enroll-001","program":"ll4LqMAHvEj","orgUnit":"P3rkRiVWkDI","enrollmentDate":"2025-09-09","incidentDate":"2025-09-09","status":"ACTIVE"}]}]}'
+2025-09-09 13:35:12,935 - INFO - === DEBUG COMPLETO DO PROBLEMA DHIS2 ===
+2025-09-09 13:35:12,936 - INFO - === DEBUG COMPLETO DOS OPTION SETS ===
+2025-09-09 13:35:13,121 - INFO - 
+🔍 OPTION SET SEXO (Sexo):
+2025-09-09 13:35:13,122 - INFO -    'M' → 'Masculino'
+2025-09-09 13:35:13,122 - INFO -    'Masculino' → 'Masculino'
+2025-09-09 13:35:13,122 - INFO -    'uZXOVhZrhq3' → 'Masculino'
+2025-09-09 13:35:13,122 - INFO -    'F' → 'Feminino'
+2025-09-09 13:35:13,123 - INFO -    'Feminino' → 'Feminino'
+2025-09-09 13:35:13,123 - INFO -    'K1Jegbds502' → 'Feminino'
+2025-09-09 13:35:13,294 - INFO - 
+🔍 OPTION SET ESTADIO OMS (EstadioOMS):
+2025-09-09 13:35:13,294 - INFO -    'Estadio OMS I' → 'i'
+2025-09-09 13:35:13,295 - INFO -    'i' → 'i'
+2025-09-09 13:35:13,295 - INFO -    'PL5bozapNFK' → 'i'
+2025-09-09 13:35:13,296 - INFO -    'Estadio OMS II' → 'ii'
+2025-09-09 13:35:13,296 - INFO -    'ii' → 'ii'
+2025-09-09 13:35:13,296 - INFO -    'AsWZEl8teN5' → 'ii'
+2025-09-09 13:35:13,297 - INFO -    'Estadio OMS III' → 'iii'
+2025-09-09 13:35:13,297 - INFO -    'iii' → 'iii'
+2025-09-09 13:35:13,297 - INFO -    'F9kuHDRE6VQ' → 'iii'
+2025-09-09 13:35:13,298 - INFO -    'Estadio OMS IV' → 'iv'
+2025-09-09 13:35:13,298 - INFO -    'iv' → 'iv'
+2025-09-09 13:35:13,298 - INFO -    'ZTP6DQB4nsT' → 'iv'
+2025-09-09 13:35:13,298 - INFO - 
+=== TESTANDO TODOS OS VALORES POSSÍVEIS ===
+2025-09-09 13:35:13,457 - INFO - 
+🧪 TESTANDO: 'M' no option set Sexo
+2025-09-09 13:35:13,457 - INFO - ✅ ENCONTRADO: 'M' → 'Masculino'
+2025-09-09 13:35:13,628 - INFO - 
+🧪 TESTANDO: 'F' no option set Sexo
+2025-09-09 13:35:13,629 - INFO - ✅ ENCONTRADO: 'F' → 'Feminino'
+2025-09-09 13:35:13,798 - INFO - 
+🧪 TESTANDO: 'Male' no option set Sexo
+2025-09-09 13:35:13,798 - INFO - ❌ NÃO ENCONTRADO: 'Male'
+2025-09-09 13:35:13,799 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 13:35:13,980 - INFO - 
+🧪 TESTANDO: 'Female' no option set Sexo
+2025-09-09 13:35:13,981 - INFO - ❌ NÃO ENCONTRADO: 'Female'
+2025-09-09 13:35:13,981 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 13:35:14,159 - INFO - 
+🧪 TESTANDO: 'Masculino' no option set Sexo
+2025-09-09 13:35:14,160 - INFO - ✅ ENCONTRADO: 'Masculino' → 'Masculino'
+2025-09-09 13:35:14,327 - INFO - 
+🧪 TESTANDO: 'Feminino' no option set Sexo
+2025-09-09 13:35:14,328 - INFO - ✅ ENCONTRADO: 'Feminino' → 'Feminino'
+2025-09-09 13:35:14,501 - INFO - 
+🧪 TESTANDO: 'm' no option set Sexo
+2025-09-09 13:35:14,501 - INFO - ✅ ENCONTRADO (case insensitive): 'm' → 'Masculino'
+2025-09-09 13:35:14,666 - INFO - 
+🧪 TESTANDO: 'f' no option set Sexo
+2025-09-09 13:35:14,667 - INFO - ✅ ENCONTRADO (case insensitive): 'f' → 'Feminino'
+2025-09-09 13:35:14,820 - INFO - 
+🧪 TESTANDO: 'Estadio OMS I' no option set EstadioOMS
+2025-09-09 13:35:14,820 - INFO - ✅ ENCONTRADO: 'Estadio OMS I' → 'i'
+2025-09-09 13:35:14,982 - INFO - 
+🧪 TESTANDO: 'Estadio OMS II' no option set EstadioOMS
+2025-09-09 13:35:14,982 - INFO - ✅ ENCONTRADO: 'Estadio OMS II' → 'ii'
+2025-09-09 13:35:15,220 - INFO - 
+🧪 TESTANDO: 'Estadio OMS III' no option set EstadioOMS
+2025-09-09 13:35:15,221 - INFO - ✅ ENCONTRADO: 'Estadio OMS III' → 'iii'
+2025-09-09 13:35:15,497 - INFO - 
+🧪 TESTANDO: 'Estadio OMS IV' no option set EstadioOMS
+2025-09-09 13:35:15,498 - INFO - ✅ ENCONTRADO: 'Estadio OMS IV' → 'iv'
+2025-09-09 13:35:15,720 - INFO - 
+🧪 TESTANDO: 'OMS I' no option set EstadioOMS
+2025-09-09 13:35:15,720 - INFO - ❌ NÃO ENCONTRADO: 'OMS I'
+2025-09-09 13:35:15,720 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:35:15,972 - INFO - 
+🧪 TESTANDO: 'OMS II' no option set EstadioOMS
+2025-09-09 13:35:15,972 - INFO - ❌ NÃO ENCONTRADO: 'OMS II'
+2025-09-09 13:35:15,973 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:35:16,141 - INFO - 
+🧪 TESTANDO: 'OMS III' no option set EstadioOMS
+2025-09-09 13:35:16,141 - INFO - ❌ NÃO ENCONTRADO: 'OMS III'
+2025-09-09 13:35:16,141 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:35:16,328 - INFO - 
+🧪 TESTANDO: 'OMS IV' no option set EstadioOMS
+2025-09-09 13:35:16,328 - INFO - ❌ NÃO ENCONTRADO: 'OMS IV'
+2025-09-09 13:35:16,329 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:35:16,487 - INFO - 
+🧪 TESTANDO: 'I' no option set EstadioOMS
+2025-09-09 13:35:16,487 - INFO - ✅ ENCONTRADO (case insensitive): 'I' → 'i'
+2025-09-09 13:35:16,657 - INFO - 
+🧪 TESTANDO: 'II' no option set EstadioOMS
+2025-09-09 13:35:16,658 - INFO - ✅ ENCONTRADO (case insensitive): 'II' → 'ii'
+2025-09-09 13:35:16,819 - INFO - 
+🧪 TESTANDO: 'III' no option set EstadioOMS
+2025-09-09 13:35:16,820 - INFO - ✅ ENCONTRADO (case insensitive): 'III' → 'iii'
+2025-09-09 13:35:16,986 - INFO - 
+🧪 TESTANDO: 'IV' no option set EstadioOMS
+2025-09-09 13:35:16,986 - INFO - ✅ ENCONTRADO (case insensitive): 'IV' → 'iv'
+2025-09-09 13:35:17,153 - INFO - 
+🧪 TESTANDO: 'i' no option set EstadioOMS
+2025-09-09 13:35:17,154 - INFO - ✅ ENCONTRADO: 'i' → 'i'
+2025-09-09 13:35:17,307 - INFO - 
+🧪 TESTANDO: 'ii' no option set EstadioOMS
+2025-09-09 13:35:17,307 - INFO - ✅ ENCONTRADO: 'ii' → 'ii'
+2025-09-09 13:35:17,480 - INFO - 
+🧪 TESTANDO: 'iii' no option set EstadioOMS
+2025-09-09 13:35:17,480 - INFO - ✅ ENCONTRADO: 'iii' → 'iii'
+2025-09-09 13:35:17,631 - INFO - 
+🧪 TESTANDO: 'iv' no option set EstadioOMS
+2025-09-09 13:35:17,632 - INFO - ✅ ENCONTRADO: 'iv' → 'iv'
+2025-09-09 13:35:17,632 - INFO - 
+=== VERIFICANDO VINCULO DOS ATRIBUTOS COM OPTION SETS ===
+2025-09-09 13:35:17,830 - ERROR - Erro ao obter atributo jCdc85LhrtI: 404
+2025-09-09 13:35:17,995 - ERROR - Erro ao obter atributo Gn8SvTBWt9K: 404
+2025-09-09 13:35:17,996 - INFO - 
+=== COMANDO CURL PARA TESTE MANUAL ===
+2025-09-09 13:35:17,996 - INFO - Execute este comando para testar manualmente:
+2025-09-09 13:35:17,997 - INFO - curl -X POST 'http://197.249.4.129:8088/api/29/trackedEntityInstances' \
+2025-09-09 13:35:17,997 - INFO -   -H 'Content-Type: application/json' \
+2025-09-09 13:35:17,998 - INFO -   -u 'admin:Chaguala.123' \
+2025-09-09 13:35:17,998 - INFO -   -d '{"trackedEntityInstances":[{"trackedEntityInstance":"test-001","trackedEntityType":"I1P2bB5OLA9","orgUnit":"P3rkRiVWkDI","attributes":[{"attribute":"jCdc85LhrtI","value":"M"},{"attribute":"Gn8SvTBWt9K","value":"Estadio OMS I"}],"enrollments":[{"enrollment":"test-enroll-001","program":"ll4LqMAHvEj","orgUnit":"P3rkRiVWkDI","enrollmentDate":"2025-09-09","incidentDate":"2025-09-09","status":"ACTIVE"}]}]}'
+2025-09-09 13:36:56,051 - INFO - === DEBUG COMPLETO DO PROBLEMA DHIS2 ===
+2025-09-09 13:36:56,052 - INFO - === DEBUG COMPLETO DOS OPTION SETS ===
+2025-09-09 13:36:56,217 - INFO - 
+🔍 OPTION SET SEXO (Sexo):
+2025-09-09 13:36:56,217 - INFO -    'M' → 'Masculino'
+2025-09-09 13:36:56,217 - INFO -    'Masculino' → 'Masculino'
+2025-09-09 13:36:56,218 - INFO -    'uZXOVhZrhq3' → 'Masculino'
+2025-09-09 13:36:56,218 - INFO -    'F' → 'Feminino'
+2025-09-09 13:36:56,218 - INFO -    'Feminino' → 'Feminino'
+2025-09-09 13:36:56,218 - INFO -    'K1Jegbds502' → 'Feminino'
+2025-09-09 13:36:56,399 - INFO - 
+🔍 OPTION SET ESTADIO OMS (EstadioOMS):
+2025-09-09 13:36:56,400 - INFO -    'Estadio OMS I' → 'i'
+2025-09-09 13:36:56,400 - INFO -    'i' → 'i'
+2025-09-09 13:36:56,400 - INFO -    'PL5bozapNFK' → 'i'
+2025-09-09 13:36:56,401 - INFO -    'Estadio OMS II' → 'ii'
+2025-09-09 13:36:56,401 - INFO -    'ii' → 'ii'
+2025-09-09 13:36:56,401 - INFO -    'AsWZEl8teN5' → 'ii'
+2025-09-09 13:36:56,402 - INFO -    'Estadio OMS III' → 'iii'
+2025-09-09 13:36:56,402 - INFO -    'iii' → 'iii'
+2025-09-09 13:36:56,402 - INFO -    'F9kuHDRE6VQ' → 'iii'
+2025-09-09 13:36:56,403 - INFO -    'Estadio OMS IV' → 'iv'
+2025-09-09 13:36:56,403 - INFO -    'iv' → 'iv'
+2025-09-09 13:36:56,403 - INFO -    'ZTP6DQB4nsT' → 'iv'
+2025-09-09 13:36:56,403 - INFO - 
+=== TESTANDO TODOS OS VALORES POSSÍVEIS ===
+2025-09-09 13:36:56,614 - INFO - 
+🧪 TESTANDO: 'M' no option set Sexo
+2025-09-09 13:36:56,614 - INFO - ✅ ENCONTRADO: 'M' → 'Masculino'
+2025-09-09 13:36:56,801 - INFO - 
+🧪 TESTANDO: 'F' no option set Sexo
+2025-09-09 13:36:56,801 - INFO - ✅ ENCONTRADO: 'F' → 'Feminino'
+2025-09-09 13:36:57,017 - INFO - 
+🧪 TESTANDO: 'Male' no option set Sexo
+2025-09-09 13:36:57,017 - INFO - ❌ NÃO ENCONTRADO: 'Male'
+2025-09-09 13:36:57,018 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 13:36:57,218 - INFO - 
+🧪 TESTANDO: 'Female' no option set Sexo
+2025-09-09 13:36:57,219 - INFO - ❌ NÃO ENCONTRADO: 'Female'
+2025-09-09 13:36:57,219 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 13:36:57,407 - INFO - 
+🧪 TESTANDO: 'Masculino' no option set Sexo
+2025-09-09 13:36:57,407 - INFO - ✅ ENCONTRADO: 'Masculino' → 'Masculino'
+2025-09-09 13:36:57,590 - INFO - 
+🧪 TESTANDO: 'Feminino' no option set Sexo
+2025-09-09 13:36:57,590 - INFO - ✅ ENCONTRADO: 'Feminino' → 'Feminino'
+2025-09-09 13:36:57,768 - INFO - 
+🧪 TESTANDO: 'm' no option set Sexo
+2025-09-09 13:36:57,768 - INFO - ✅ ENCONTRADO (case insensitive): 'm' → 'Masculino'
+2025-09-09 13:36:57,943 - INFO - 
+🧪 TESTANDO: 'f' no option set Sexo
+2025-09-09 13:36:57,943 - INFO - ✅ ENCONTRADO (case insensitive): 'f' → 'Feminino'
+2025-09-09 13:36:58,121 - INFO - 
+🧪 TESTANDO: 'Estadio OMS I' no option set EstadioOMS
+2025-09-09 13:36:58,122 - INFO - ✅ ENCONTRADO: 'Estadio OMS I' → 'i'
+2025-09-09 13:36:58,353 - INFO - 
+🧪 TESTANDO: 'Estadio OMS II' no option set EstadioOMS
+2025-09-09 13:36:58,353 - INFO - ✅ ENCONTRADO: 'Estadio OMS II' → 'ii'
+2025-09-09 13:36:58,550 - INFO - 
+🧪 TESTANDO: 'Estadio OMS III' no option set EstadioOMS
+2025-09-09 13:36:58,551 - INFO - ✅ ENCONTRADO: 'Estadio OMS III' → 'iii'
+2025-09-09 13:36:58,720 - INFO - 
+🧪 TESTANDO: 'Estadio OMS IV' no option set EstadioOMS
+2025-09-09 13:36:58,720 - INFO - ✅ ENCONTRADO: 'Estadio OMS IV' → 'iv'
+2025-09-09 13:36:58,935 - INFO - 
+🧪 TESTANDO: 'OMS I' no option set EstadioOMS
+2025-09-09 13:36:58,935 - INFO - ❌ NÃO ENCONTRADO: 'OMS I'
+2025-09-09 13:36:58,935 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:36:59,111 - INFO - 
+🧪 TESTANDO: 'OMS II' no option set EstadioOMS
+2025-09-09 13:36:59,111 - INFO - ❌ NÃO ENCONTRADO: 'OMS II'
+2025-09-09 13:36:59,112 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:36:59,294 - INFO - 
+🧪 TESTANDO: 'OMS III' no option set EstadioOMS
+2025-09-09 13:36:59,295 - INFO - ❌ NÃO ENCONTRADO: 'OMS III'
+2025-09-09 13:36:59,295 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:36:59,469 - INFO - 
+🧪 TESTANDO: 'OMS IV' no option set EstadioOMS
+2025-09-09 13:36:59,469 - INFO - ❌ NÃO ENCONTRADO: 'OMS IV'
+2025-09-09 13:36:59,470 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:36:59,632 - INFO - 
+🧪 TESTANDO: 'I' no option set EstadioOMS
+2025-09-09 13:36:59,632 - INFO - ✅ ENCONTRADO (case insensitive): 'I' → 'i'
+2025-09-09 13:36:59,946 - INFO - 
+🧪 TESTANDO: 'II' no option set EstadioOMS
+2025-09-09 13:36:59,946 - INFO - ✅ ENCONTRADO (case insensitive): 'II' → 'ii'
+2025-09-09 13:37:00,281 - INFO - 
+🧪 TESTANDO: 'III' no option set EstadioOMS
+2025-09-09 13:37:00,281 - INFO - ✅ ENCONTRADO (case insensitive): 'III' → 'iii'
+2025-09-09 13:37:00,450 - INFO - 
+🧪 TESTANDO: 'IV' no option set EstadioOMS
+2025-09-09 13:37:00,451 - INFO - ✅ ENCONTRADO (case insensitive): 'IV' → 'iv'
+2025-09-09 13:37:00,609 - INFO - 
+🧪 TESTANDO: 'i' no option set EstadioOMS
+2025-09-09 13:37:00,610 - INFO - ✅ ENCONTRADO: 'i' → 'i'
+2025-09-09 13:37:00,763 - INFO - 
+🧪 TESTANDO: 'ii' no option set EstadioOMS
+2025-09-09 13:37:00,764 - INFO - ✅ ENCONTRADO: 'ii' → 'ii'
+2025-09-09 13:37:00,926 - INFO - 
+🧪 TESTANDO: 'iii' no option set EstadioOMS
+2025-09-09 13:37:00,926 - INFO - ✅ ENCONTRADO: 'iii' → 'iii'
+2025-09-09 13:37:01,090 - INFO - 
+🧪 TESTANDO: 'iv' no option set EstadioOMS
+2025-09-09 13:37:01,091 - INFO - ✅ ENCONTRADO: 'iv' → 'iv'
+2025-09-09 13:37:01,091 - INFO - 
+=== VERIFICANDO VINCULO DOS ATRIBUTOS COM OPTION SETS ===
+2025-09-09 13:37:01,252 - ERROR - Erro ao obter atributo jCdc85LhrtI: 404
+2025-09-09 13:37:01,453 - ERROR - Erro ao obter atributo Gn8SvTBWt9K: 404
+2025-09-09 13:37:01,454 - INFO - 
+=== COMANDO CURL PARA TESTE MANUAL ===
+2025-09-09 13:37:01,454 - INFO - Execute este comando para testar manualmente:
+2025-09-09 13:37:01,454 - INFO - curl -X POST 'http://197.249.4.129:8088/api/29/trackedEntityInstances' \
+2025-09-09 13:37:01,454 - INFO -   -H 'Content-Type: application/json' \
+2025-09-09 13:37:01,454 - INFO -   -u 'admin:Chaguala.123' \
+2025-09-09 13:37:01,455 - INFO -   -d '{"trackedEntityInstances":[{"trackedEntityInstance":"test-001","trackedEntityType":"I1P2bB5OLA9","orgUnit":"P3rkRiVWkDI","attributes":[{"attribute":"jCdc85LhrtI","value":"M"},{"attribute":"Gn8SvTBWt9K","value":"Estadio OMS I"}],"enrollments":[{"enrollment":"test-enroll-001","program":"ll4LqMAHvEj","orgUnit":"P3rkRiVWkDI","enrollmentDate":"2025-09-09","incidentDate":"2025-09-09","status":"ACTIVE"}]}]}'
+2025-09-09 13:45:02,044 - INFO - === DEBUG COMPLETO DO PROBLEMA DHIS2 ===
+2025-09-09 13:45:02,045 - INFO - === DEBUG COMPLETO DOS OPTION SETS ===
+2025-09-09 13:45:02,289 - INFO - 
+🔍 OPTION SET SEXO (Sexo):
+2025-09-09 13:45:02,290 - INFO -    'M' → 'Masculino'
+2025-09-09 13:45:02,290 - INFO -    'Masculino' → 'Masculino'
+2025-09-09 13:45:02,290 - INFO -    'uZXOVhZrhq3' → 'Masculino'
+2025-09-09 13:45:02,290 - INFO -    'F' → 'Feminino'
+2025-09-09 13:45:02,291 - INFO -    'Feminino' → 'Feminino'
+2025-09-09 13:45:02,291 - INFO -    'K1Jegbds502' → 'Feminino'
+2025-09-09 13:45:02,504 - INFO - 
+🔍 OPTION SET ESTADIO OMS (EstadioOMS):
+2025-09-09 13:45:02,504 - INFO -    'Estadio OMS I' → 'i'
+2025-09-09 13:45:02,505 - INFO -    'i' → 'i'
+2025-09-09 13:45:02,505 - INFO -    'PL5bozapNFK' → 'i'
+2025-09-09 13:45:02,505 - INFO -    'Estadio OMS II' → 'ii'
+2025-09-09 13:45:02,505 - INFO -    'ii' → 'ii'
+2025-09-09 13:45:02,505 - INFO -    'AsWZEl8teN5' → 'ii'
+2025-09-09 13:45:02,505 - INFO -    'Estadio OMS III' → 'iii'
+2025-09-09 13:45:02,505 - INFO -    'iii' → 'iii'
+2025-09-09 13:45:02,506 - INFO -    'F9kuHDRE6VQ' → 'iii'
+2025-09-09 13:45:02,506 - INFO -    'Estadio OMS IV' → 'iv'
+2025-09-09 13:45:02,506 - INFO -    'iv' → 'iv'
+2025-09-09 13:45:02,506 - INFO -    'ZTP6DQB4nsT' → 'iv'
+2025-09-09 13:45:02,506 - INFO - 
+=== TESTANDO TODOS OS VALORES POSSÍVEIS ===
+2025-09-09 13:45:02,732 - INFO - 
+🧪 TESTANDO: 'M' no option set Sexo
+2025-09-09 13:45:02,733 - INFO - ✅ ENCONTRADO: 'M' → 'Masculino'
+2025-09-09 13:45:03,036 - INFO - 
+🧪 TESTANDO: 'F' no option set Sexo
+2025-09-09 13:45:03,036 - INFO - ✅ ENCONTRADO: 'F' → 'Feminino'
+2025-09-09 13:45:03,365 - INFO - 
+🧪 TESTANDO: 'Male' no option set Sexo
+2025-09-09 13:45:03,365 - INFO - ❌ NÃO ENCONTRADO: 'Male'
+2025-09-09 13:45:03,366 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 13:45:03,584 - INFO - 
+🧪 TESTANDO: 'Female' no option set Sexo
+2025-09-09 13:45:03,585 - INFO - ❌ NÃO ENCONTRADO: 'Female'
+2025-09-09 13:45:03,585 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 13:45:03,794 - INFO - 
+🧪 TESTANDO: 'Masculino' no option set Sexo
+2025-09-09 13:45:03,794 - INFO - ✅ ENCONTRADO: 'Masculino' → 'Masculino'
+2025-09-09 13:45:03,975 - INFO - 
+🧪 TESTANDO: 'Feminino' no option set Sexo
+2025-09-09 13:45:03,975 - INFO - ✅ ENCONTRADO: 'Feminino' → 'Feminino'
+2025-09-09 13:45:04,160 - INFO - 
+🧪 TESTANDO: 'm' no option set Sexo
+2025-09-09 13:45:04,161 - INFO - ✅ ENCONTRADO (case insensitive): 'm' → 'Masculino'
+2025-09-09 13:45:04,354 - INFO - 
+🧪 TESTANDO: 'f' no option set Sexo
+2025-09-09 13:45:04,355 - INFO - ✅ ENCONTRADO (case insensitive): 'f' → 'Feminino'
+2025-09-09 13:45:04,534 - INFO - 
+🧪 TESTANDO: 'Estadio OMS I' no option set EstadioOMS
+2025-09-09 13:45:04,535 - INFO - ✅ ENCONTRADO: 'Estadio OMS I' → 'i'
+2025-09-09 13:45:04,710 - INFO - 
+🧪 TESTANDO: 'Estadio OMS II' no option set EstadioOMS
+2025-09-09 13:45:04,711 - INFO - ✅ ENCONTRADO: 'Estadio OMS II' → 'ii'
+2025-09-09 13:45:04,876 - INFO - 
+🧪 TESTANDO: 'Estadio OMS III' no option set EstadioOMS
+2025-09-09 13:45:04,876 - INFO - ✅ ENCONTRADO: 'Estadio OMS III' → 'iii'
+2025-09-09 13:45:05,053 - INFO - 
+🧪 TESTANDO: 'Estadio OMS IV' no option set EstadioOMS
+2025-09-09 13:45:05,053 - INFO - ✅ ENCONTRADO: 'Estadio OMS IV' → 'iv'
+2025-09-09 13:45:05,245 - INFO - 
+🧪 TESTANDO: 'OMS I' no option set EstadioOMS
+2025-09-09 13:45:05,246 - INFO - ❌ NÃO ENCONTRADO: 'OMS I'
+2025-09-09 13:45:05,246 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:45:05,433 - INFO - 
+🧪 TESTANDO: 'OMS II' no option set EstadioOMS
+2025-09-09 13:45:05,433 - INFO - ❌ NÃO ENCONTRADO: 'OMS II'
+2025-09-09 13:45:05,434 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:45:05,606 - INFO - 
+🧪 TESTANDO: 'OMS III' no option set EstadioOMS
+2025-09-09 13:45:05,606 - INFO - ❌ NÃO ENCONTRADO: 'OMS III'
+2025-09-09 13:45:05,606 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:45:05,783 - INFO - 
+🧪 TESTANDO: 'OMS IV' no option set EstadioOMS
+2025-09-09 13:45:05,784 - INFO - ❌ NÃO ENCONTRADO: 'OMS IV'
+2025-09-09 13:45:05,784 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 13:45:05,947 - INFO - 
+🧪 TESTANDO: 'I' no option set EstadioOMS
+2025-09-09 13:45:05,947 - INFO - ✅ ENCONTRADO (case insensitive): 'I' → 'i'
+2025-09-09 13:45:06,142 - INFO - 
+🧪 TESTANDO: 'II' no option set EstadioOMS
+2025-09-09 13:45:06,143 - INFO - ✅ ENCONTRADO (case insensitive): 'II' → 'ii'
+2025-09-09 13:45:06,314 - INFO - 
+🧪 TESTANDO: 'III' no option set EstadioOMS
+2025-09-09 13:45:06,315 - INFO - ✅ ENCONTRADO (case insensitive): 'III' → 'iii'
+2025-09-09 13:45:06,539 - INFO - 
+🧪 TESTANDO: 'IV' no option set EstadioOMS
+2025-09-09 13:45:06,540 - INFO - ✅ ENCONTRADO (case insensitive): 'IV' → 'iv'
+2025-09-09 13:45:06,728 - INFO - 
+🧪 TESTANDO: 'i' no option set EstadioOMS
+2025-09-09 13:45:06,728 - INFO - ✅ ENCONTRADO: 'i' → 'i'
+2025-09-09 13:45:06,930 - INFO - 
+🧪 TESTANDO: 'ii' no option set EstadioOMS
+2025-09-09 13:45:06,931 - INFO - ✅ ENCONTRADO: 'ii' → 'ii'
+2025-09-09 13:45:07,145 - INFO - 
+🧪 TESTANDO: 'iii' no option set EstadioOMS
+2025-09-09 13:45:07,146 - INFO - ✅ ENCONTRADO: 'iii' → 'iii'
+2025-09-09 13:45:07,352 - INFO - 
+🧪 TESTANDO: 'iv' no option set EstadioOMS
+2025-09-09 13:45:07,353 - INFO - ✅ ENCONTRADO: 'iv' → 'iv'
+2025-09-09 13:45:07,353 - INFO - 
+=== VERIFICANDO VINCULO DOS ATRIBUTOS COM OPTION SETS ===
+2025-09-09 13:45:07,539 - ERROR - Erro ao obter atributo jCdc85LhrtI: 404
+2025-09-09 13:45:07,794 - ERROR - Erro ao obter atributo Gn8SvTBWt9K: 404
+2025-09-09 13:45:07,794 - INFO - 
+=== COMANDO CURL PARA TESTE MANUAL ===
+2025-09-09 13:45:07,795 - INFO - Execute este comando para testar manualmente:
+2025-09-09 13:45:07,795 - INFO - curl -X POST 'http://197.249.4.129:8088/api/29/trackedEntityInstances' \
+2025-09-09 13:45:07,795 - INFO -   -H 'Content-Type: application/json' \
+2025-09-09 13:45:07,796 - INFO -   -u 'admin:Chaguala.123' \
+2025-09-09 13:45:07,796 - INFO -   -d '{"trackedEntityInstances":[{"trackedEntityInstance":"test-001","trackedEntityType":"I1P2bB5OLA9","orgUnit":"P3rkRiVWkDI","attributes":[{"attribute":"jCdc85LhrtI","value":"M"},{"attribute":"Gn8SvTBWt9K","value":"Estadio OMS I"}],"enrollments":[{"enrollment":"test-enroll-001","program":"ll4LqMAHvEj","orgUnit":"P3rkRiVWkDI","enrollmentDate":"2025-09-09","incidentDate":"2025-09-09","status":"ACTIVE"}]}]}'
+2025-09-09 14:08:36,173 - INFO - === DEBUG COMPLETO DO PROBLEMA DHIS2 ===
+2025-09-09 14:08:36,174 - INFO - === DEBUG COMPLETO DOS OPTION SETS ===
+2025-09-09 14:08:36,406 - INFO - 
+🔍 OPTION SET SEXO (Sexo):
+2025-09-09 14:08:36,407 - INFO -    'M' → 'Masculino'
+2025-09-09 14:08:36,407 - INFO -    'Masculino' → 'Masculino'
+2025-09-09 14:08:36,407 - INFO -    'uZXOVhZrhq3' → 'Masculino'
+2025-09-09 14:08:36,407 - INFO -    'F' → 'Feminino'
+2025-09-09 14:08:36,408 - INFO -    'Feminino' → 'Feminino'
+2025-09-09 14:08:36,408 - INFO -    'K1Jegbds502' → 'Feminino'
+2025-09-09 14:08:36,629 - INFO - 
+🔍 OPTION SET ESTADIO OMS (EstadioOMS):
+2025-09-09 14:08:36,630 - INFO -    'Estadio OMS I' → 'i'
+2025-09-09 14:08:36,630 - INFO -    'i' → 'i'
+2025-09-09 14:08:36,630 - INFO -    'PL5bozapNFK' → 'i'
+2025-09-09 14:08:36,631 - INFO -    'Estadio OMS II' → 'ii'
+2025-09-09 14:08:36,631 - INFO -    'ii' → 'ii'
+2025-09-09 14:08:36,631 - INFO -    'AsWZEl8teN5' → 'ii'
+2025-09-09 14:08:36,632 - INFO -    'Estadio OMS III' → 'iii'
+2025-09-09 14:08:36,632 - INFO -    'iii' → 'iii'
+2025-09-09 14:08:36,632 - INFO -    'F9kuHDRE6VQ' → 'iii'
+2025-09-09 14:08:36,633 - INFO -    'Estadio OMS IV' → 'iv'
+2025-09-09 14:08:36,633 - INFO -    'iv' → 'iv'
+2025-09-09 14:08:36,633 - INFO -    'ZTP6DQB4nsT' → 'iv'
+2025-09-09 14:08:36,845 - ERROR - Erro ao obter option set DzBXLWorexg: 404
+2025-09-09 14:08:36,846 - ERROR - ❌ Option Set Estado não encontrado!
+2025-09-09 14:08:36,846 - INFO - 
+=== TESTANDO TODOS OS VALORES POSSÍVEIS ===
+2025-09-09 14:08:37,081 - INFO - 
+🧪 TESTANDO: 'M' no option set Sexo
+2025-09-09 14:08:37,081 - INFO - ✅ ENCONTRADO: 'M' → 'Masculino'
+2025-09-09 14:08:37,306 - INFO - 
+🧪 TESTANDO: 'F' no option set Sexo
+2025-09-09 14:08:37,307 - INFO - ✅ ENCONTRADO: 'F' → 'Feminino'
+2025-09-09 14:08:37,513 - INFO - 
+🧪 TESTANDO: 'Male' no option set Sexo
+2025-09-09 14:08:37,514 - INFO - ❌ NÃO ENCONTRADO: 'Male'
+2025-09-09 14:08:37,514 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 14:08:37,698 - INFO - 
+🧪 TESTANDO: 'Female' no option set Sexo
+2025-09-09 14:08:37,699 - INFO - ❌ NÃO ENCONTRADO: 'Female'
+2025-09-09 14:08:37,700 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 14:08:37,893 - INFO - 
+🧪 TESTANDO: 'Masculino' no option set Sexo
+2025-09-09 14:08:37,893 - INFO - ✅ ENCONTRADO: 'Masculino' → 'Masculino'
+2025-09-09 14:08:38,065 - INFO - 
+🧪 TESTANDO: 'Feminino' no option set Sexo
+2025-09-09 14:08:38,065 - INFO - ✅ ENCONTRADO: 'Feminino' → 'Feminino'
+2025-09-09 14:08:38,273 - INFO - 
+🧪 TESTANDO: 'm' no option set Sexo
+2025-09-09 14:08:38,274 - INFO - ✅ ENCONTRADO (case insensitive): 'm' → 'Masculino'
+2025-09-09 14:08:38,460 - INFO - 
+🧪 TESTANDO: 'f' no option set Sexo
+2025-09-09 14:08:38,460 - INFO - ✅ ENCONTRADO (case insensitive): 'f' → 'Feminino'
+2025-09-09 14:08:38,648 - INFO - 
+🧪 TESTANDO: 'Estadio OMS I' no option set EstadioOMS
+2025-09-09 14:08:38,648 - INFO - ✅ ENCONTRADO: 'Estadio OMS I' → 'i'
+2025-09-09 14:08:38,813 - INFO - 
+🧪 TESTANDO: 'Estadio OMS II' no option set EstadioOMS
+2025-09-09 14:08:38,813 - INFO - ✅ ENCONTRADO: 'Estadio OMS II' → 'ii'
+2025-09-09 14:08:38,985 - INFO - 
+🧪 TESTANDO: 'Estadio OMS III' no option set EstadioOMS
+2025-09-09 14:08:38,985 - INFO - ✅ ENCONTRADO: 'Estadio OMS III' → 'iii'
+2025-09-09 14:08:39,149 - INFO - 
+🧪 TESTANDO: 'Estadio OMS IV' no option set EstadioOMS
+2025-09-09 14:08:39,150 - INFO - ✅ ENCONTRADO: 'Estadio OMS IV' → 'iv'
+2025-09-09 14:08:39,327 - INFO - 
+🧪 TESTANDO: 'OMS I' no option set EstadioOMS
+2025-09-09 14:08:39,328 - INFO - ❌ NÃO ENCONTRADO: 'OMS I'
+2025-09-09 14:08:39,328 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:08:39,489 - INFO - 
+🧪 TESTANDO: 'OMS II' no option set EstadioOMS
+2025-09-09 14:08:39,489 - INFO - ❌ NÃO ENCONTRADO: 'OMS II'
+2025-09-09 14:08:39,490 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:08:39,654 - INFO - 
+🧪 TESTANDO: 'OMS III' no option set EstadioOMS
+2025-09-09 14:08:39,655 - INFO - ❌ NÃO ENCONTRADO: 'OMS III'
+2025-09-09 14:08:39,656 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:08:39,843 - INFO - 
+🧪 TESTANDO: 'OMS IV' no option set EstadioOMS
+2025-09-09 14:08:39,844 - INFO - ❌ NÃO ENCONTRADO: 'OMS IV'
+2025-09-09 14:08:39,845 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:08:40,012 - INFO - 
+🧪 TESTANDO: 'I' no option set EstadioOMS
+2025-09-09 14:08:40,012 - INFO - ✅ ENCONTRADO (case insensitive): 'I' → 'i'
+2025-09-09 14:08:40,180 - INFO - 
+🧪 TESTANDO: 'II' no option set EstadioOMS
+2025-09-09 14:08:40,181 - INFO - ✅ ENCONTRADO (case insensitive): 'II' → 'ii'
+2025-09-09 14:08:40,351 - INFO - 
+🧪 TESTANDO: 'III' no option set EstadioOMS
+2025-09-09 14:08:40,352 - INFO - ✅ ENCONTRADO (case insensitive): 'III' → 'iii'
+2025-09-09 14:08:40,510 - INFO - 
+🧪 TESTANDO: 'IV' no option set EstadioOMS
+2025-09-09 14:08:40,510 - INFO - ✅ ENCONTRADO (case insensitive): 'IV' → 'iv'
+2025-09-09 14:08:40,671 - INFO - 
+🧪 TESTANDO: 'i' no option set EstadioOMS
+2025-09-09 14:08:40,672 - INFO - ✅ ENCONTRADO: 'i' → 'i'
+2025-09-09 14:08:40,867 - INFO - 
+🧪 TESTANDO: 'ii' no option set EstadioOMS
+2025-09-09 14:08:40,868 - INFO - ✅ ENCONTRADO: 'ii' → 'ii'
+2025-09-09 14:08:41,032 - INFO - 
+🧪 TESTANDO: 'iii' no option set EstadioOMS
+2025-09-09 14:08:41,032 - INFO - ✅ ENCONTRADO: 'iii' → 'iii'
+2025-09-09 14:08:41,188 - INFO - 
+🧪 TESTANDO: 'iv' no option set EstadioOMS
+2025-09-09 14:08:41,189 - INFO - ✅ ENCONTRADO: 'iv' → 'iv'
+2025-09-09 14:08:41,189 - INFO - 
+=== VERIFICANDO VINCULO DOS ATRIBUTOS COM OPTION SETS ===
+2025-09-09 14:08:41,350 - ERROR - Erro ao obter atributo jCdc85LhrtI: 404
+2025-09-09 14:08:41,514 - ERROR - Erro ao obter atributo Gn8SvTBWt9K: 404
+2025-09-09 14:08:41,514 - INFO - 
+=== COMANDO CURL PARA TESTE MANUAL ===
+2025-09-09 14:08:41,515 - INFO - Execute este comando para testar manualmente:
+2025-09-09 14:08:41,515 - INFO - curl -X POST 'http://197.249.4.129:8088/api/29/trackedEntityInstances' \
+2025-09-09 14:08:41,515 - INFO -   -H 'Content-Type: application/json' \
+2025-09-09 14:08:41,515 - INFO -   -u 'admin:Chaguala.123' \
+2025-09-09 14:08:41,516 - INFO -   -d '{"trackedEntityInstances":[{"trackedEntityInstance":"test-001","trackedEntityType":"I1P2bB5OLA9","orgUnit":"P3rkRiVWkDI","attributes":[{"attribute":"jCdc85LhrtI","value":"M"},{"attribute":"Gn8SvTBWt9K","value":"Estadio OMS I"}],"enrollments":[{"enrollment":"test-enroll-001","program":"ll4LqMAHvEj","orgUnit":"P3rkRiVWkDI","enrollmentDate":"2025-09-09","incidentDate":"2025-09-09","status":"ACTIVE"}]}]}'
+2025-09-09 14:13:47,890 - INFO - === DEBUG COMPLETO DO PROBLEMA DHIS2 ===
+2025-09-09 14:13:47,890 - INFO - === DEBUG COMPLETO DOS OPTION SETS ===
+2025-09-09 14:13:48,072 - INFO - 
+🔍 OPTION SET SEXO (Sexo):
+2025-09-09 14:13:48,072 - INFO -    'M' → 'Masculino'
+2025-09-09 14:13:48,072 - INFO -    'Masculino' → 'Masculino'
+2025-09-09 14:13:48,072 - INFO -    'uZXOVhZrhq3' → 'Masculino'
+2025-09-09 14:13:48,073 - INFO -    'F' → 'Feminino'
+2025-09-09 14:13:48,073 - INFO -    'Feminino' → 'Feminino'
+2025-09-09 14:13:48,073 - INFO -    'K1Jegbds502' → 'Feminino'
+2025-09-09 14:13:48,266 - INFO - 
+🔍 OPTION SET ESTADIO OMS (EstadioOMS):
+2025-09-09 14:13:48,267 - INFO -    'Estadio OMS I' → 'i'
+2025-09-09 14:13:48,267 - INFO -    'i' → 'i'
+2025-09-09 14:13:48,267 - INFO -    'PL5bozapNFK' → 'i'
+2025-09-09 14:13:48,267 - INFO -    'Estadio OMS II' → 'ii'
+2025-09-09 14:13:48,268 - INFO -    'ii' → 'ii'
+2025-09-09 14:13:48,268 - INFO -    'AsWZEl8teN5' → 'ii'
+2025-09-09 14:13:48,268 - INFO -    'Estadio OMS III' → 'iii'
+2025-09-09 14:13:48,268 - INFO -    'iii' → 'iii'
+2025-09-09 14:13:48,268 - INFO -    'F9kuHDRE6VQ' → 'iii'
+2025-09-09 14:13:48,269 - INFO -    'Estadio OMS IV' → 'iv'
+2025-09-09 14:13:48,269 - INFO -    'iv' → 'iv'
+2025-09-09 14:13:48,269 - INFO -    'ZTP6DQB4nsT' → 'iv'
+2025-09-09 14:13:48,493 - INFO - 
+🔍 OPTION SET ESTADO (Estado):
+2025-09-09 14:13:48,493 - INFO -    'Obito' → 'obito'
+2025-09-09 14:13:48,494 - INFO -    'obito' → 'obito'
+2025-09-09 14:13:48,494 - INFO -    'N0nFExgghmv' → 'obito'
+2025-09-09 14:13:48,494 - INFO -    'Abandonou tratamento' → 'abandonoutratamento'
+2025-09-09 14:13:48,495 - INFO -    'abandonoutratamento' → 'abandonoutratamento'
+2025-09-09 14:13:48,495 - INFO -    'bcRzjwqiIx6' → 'abandonoutratamento'
+2025-09-09 14:13:48,495 - INFO -    'Auto Transferencia Para' → 'AutoTransferenciaPara'
+2025-09-09 14:13:48,496 - INFO -    'AutoTransferenciaPara' → 'AutoTransferenciaPara'
+2025-09-09 14:13:48,496 - INFO -    'A8xl20xCA6d' → 'AutoTransferenciaPara'
+2025-09-09 14:13:48,496 - INFO -    'Efeitos Secundarios' → 'EfeitosSecundarios'
+2025-09-09 14:13:48,496 - INFO -    'EfeitosSecundarios' → 'EfeitosSecundarios'
+2025-09-09 14:13:48,496 - INFO -    'k0U2yJfFkeA' → 'EfeitosSecundarios'
+2025-09-09 14:13:48,497 - INFO -    'Encaminhado Para US' → 'EncaminhadoParaUS'
+2025-09-09 14:13:48,497 - INFO -    'EncaminhadoParaUS' → 'EncaminhadoParaUS'
+2025-09-09 14:13:48,497 - INFO -    'maPHhCdVZyX' → 'EncaminhadoParaUS'
+2025-09-09 14:13:48,497 - INFO -    'Encaminhado Para Grupo de Apoio' → 'EncaminhadoGrupoApoio'
+2025-09-09 14:13:48,497 - INFO -    'EncaminhadoGrupoApoio' → 'EncaminhadoGrupoApoio'
+2025-09-09 14:13:48,498 - INFO -    'etLnTRoIu6v' → 'EncaminhadoGrupoApoio'
+2025-09-09 14:13:48,498 - INFO -    'Esqueceu a Data' → 'EsqueceuData'
+2025-09-09 14:13:48,498 - INFO -    'EsqueceuData' → 'EsqueceuData'
+2025-09-09 14:13:48,498 - INFO -    'uDlWltVacp4' → 'EsqueceuData'
+2025-09-09 14:13:48,499 - INFO -    'Esta Doente' → 'EstaDoente'
+2025-09-09 14:13:48,499 - INFO -    'EstaDoente' → 'EstaDoente'
+2025-09-09 14:13:48,499 - INFO -    'SP5ujfjv97i' → 'EstaDoente'
+2025-09-09 14:13:48,499 - INFO -    'Mau Atendimento' → 'MauAtendimento'
+2025-09-09 14:13:48,499 - INFO -    'MauAtendimento' → 'MauAtendimento'
+2025-09-09 14:13:48,500 - INFO -    'CAID4EurlDX' → 'MauAtendimento'
+2025-09-09 14:13:48,500 - INFO -    'Familiar Referido Para US' → 'FamiliarReferidoUS'
+2025-09-09 14:13:48,500 - INFO -    'FamiliarReferidoUS' → 'FamiliarReferidoUS'
+2025-09-09 14:13:48,500 - INFO -    'BFl6zeL2C0k' → 'FamiliarReferidoUS'
+2025-09-09 14:13:48,501 - INFO -    'Medo do Provedor Saude' → 'MedoProvedorSaude'
+2025-09-09 14:13:48,501 - INFO -    'MedoProvedorSaude' → 'MedoProvedorSaude'
+2025-09-09 14:13:48,501 - INFO -    'fcg1HvVenPB' → 'MedoProvedorSaude'
+2025-09-09 14:13:48,501 - INFO -    'Nao Aceitou Regressar a US' → 'NaoAceitouRegressarUS'
+2025-09-09 14:13:48,502 - INFO -    'NaoAceitouRegressarUS' → 'NaoAceitouRegressarUS'
+2025-09-09 14:13:48,502 - INFO -    'XrQkyqxv0YN' → 'NaoAceitouRegressarUS'
+2025-09-09 14:13:48,502 - INFO -    'Nao Encontrado' → 'NaoEncontrado'
+2025-09-09 14:13:48,502 - INFO -    'NaoEncontrado' → 'NaoEncontrado'
+2025-09-09 14:13:48,502 - INFO -    'B1G89zToudV' → 'NaoEncontrado'
+2025-09-09 14:13:48,503 - INFO -    'Problema de Transporte' → 'ProblemaTransporte'
+2025-09-09 14:13:48,503 - INFO -    'ProblemaTransporte' → 'ProblemaTransporte'
+2025-09-09 14:13:48,503 - INFO -    'TOYiyaapN8o' → 'ProblemaTransporte'
+2025-09-09 14:13:48,503 - INFO -    'Retornou a Unidade Sanitaria' → 'RetornouUnidadeSanitaria'
+2025-09-09 14:13:48,503 - INFO -    'RetornouUnidadeSanitaria' → 'RetornouUnidadeSanitaria'
+2025-09-09 14:13:48,503 - INFO -    'DWfkmNEceZe' → 'RetornouUnidadeSanitaria'
+2025-09-09 14:13:48,503 - INFO -    'Trabalho' → 'Trabalho'
+2025-09-09 14:13:48,504 - INFO -    'jMGh7bsJU9m' → 'Trabalho'
+2025-09-09 14:13:48,504 - INFO -    'Estava na Machamba' → 'EstavaMachamba'
+2025-09-09 14:13:48,504 - INFO -    'EstavaMachamba' → 'EstavaMachamba'
+2025-09-09 14:13:48,504 - INFO -    'hOfTmKTYWFJ' → 'EstavaMachamba'
+2025-09-09 14:13:48,504 - INFO -    'Sente se Bem' → 'SenteBem'
+2025-09-09 14:13:48,504 - INFO -    'SenteBem' → 'SenteBem'
+2025-09-09 14:13:48,504 - INFO -    'S9E5Ru0KG87' → 'SenteBem'
+2025-09-09 14:13:48,505 - INFO -    'Nao se sente bem' → 'NaoSenteBem'
+2025-09-09 14:13:48,505 - INFO -    'NaoSenteBem' → 'NaoSenteBem'
+2025-09-09 14:13:48,505 - INFO -    'YjsIyb5wpMQ' → 'NaoSenteBem'
+2025-09-09 14:13:48,505 - INFO -    'Transferido Para Outra US' → 'TransferidoParaOutraUS'
+2025-09-09 14:13:48,505 - INFO -    'TransferidoParaOutraUS' → 'TransferidoParaOutraUS'
+2025-09-09 14:13:48,505 - INFO -    'a21U7WtTmcL' → 'TransferidoParaOutraUS'
+2025-09-09 14:13:48,505 - INFO -    'Tratamento Tradicional' → 'TratamentoTradicional'
+2025-09-09 14:13:48,505 - INFO -    'TratamentoTradicional' → 'TratamentoTradicional'
+2025-09-09 14:13:48,506 - INFO -    'Mti9DO3n3rL' → 'TratamentoTradicional'
+2025-09-09 14:13:48,506 - INFO - 
+=== TESTANDO TODOS OS VALORES POSSÍVEIS ===
+2025-09-09 14:13:48,675 - INFO - 
+🧪 TESTANDO: 'M' no option set Sexo
+2025-09-09 14:13:48,675 - INFO - ✅ ENCONTRADO: 'M' → 'Masculino'
+2025-09-09 14:13:48,857 - INFO - 
+🧪 TESTANDO: 'F' no option set Sexo
+2025-09-09 14:13:48,857 - INFO - ✅ ENCONTRADO: 'F' → 'Feminino'
+2025-09-09 14:13:49,029 - INFO - 
+🧪 TESTANDO: 'Male' no option set Sexo
+2025-09-09 14:13:49,029 - INFO - ❌ NÃO ENCONTRADO: 'Male'
+2025-09-09 14:13:49,029 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 14:13:49,229 - INFO - 
+🧪 TESTANDO: 'Female' no option set Sexo
+2025-09-09 14:13:49,229 - INFO - ❌ NÃO ENCONTRADO: 'Female'
+2025-09-09 14:13:49,230 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 14:13:49,404 - INFO - 
+🧪 TESTANDO: 'Masculino' no option set Sexo
+2025-09-09 14:13:49,405 - INFO - ✅ ENCONTRADO: 'Masculino' → 'Masculino'
+2025-09-09 14:13:49,597 - INFO - 
+🧪 TESTANDO: 'Feminino' no option set Sexo
+2025-09-09 14:13:49,598 - INFO - ✅ ENCONTRADO: 'Feminino' → 'Feminino'
+2025-09-09 14:13:49,795 - INFO - 
+🧪 TESTANDO: 'm' no option set Sexo
+2025-09-09 14:13:49,795 - INFO - ✅ ENCONTRADO (case insensitive): 'm' → 'Masculino'
+2025-09-09 14:13:49,958 - INFO - 
+🧪 TESTANDO: 'f' no option set Sexo
+2025-09-09 14:13:49,958 - INFO - ✅ ENCONTRADO (case insensitive): 'f' → 'Feminino'
+2025-09-09 14:13:50,132 - INFO - 
+🧪 TESTANDO: 'Estadio OMS I' no option set EstadioOMS
+2025-09-09 14:13:50,133 - INFO - ✅ ENCONTRADO: 'Estadio OMS I' → 'i'
+2025-09-09 14:13:50,293 - INFO - 
+🧪 TESTANDO: 'Estadio OMS II' no option set EstadioOMS
+2025-09-09 14:13:50,294 - INFO - ✅ ENCONTRADO: 'Estadio OMS II' → 'ii'
+2025-09-09 14:13:50,458 - INFO - 
+🧪 TESTANDO: 'Estadio OMS III' no option set EstadioOMS
+2025-09-09 14:13:50,458 - INFO - ✅ ENCONTRADO: 'Estadio OMS III' → 'iii'
+2025-09-09 14:13:50,633 - INFO - 
+🧪 TESTANDO: 'Estadio OMS IV' no option set EstadioOMS
+2025-09-09 14:13:50,633 - INFO - ✅ ENCONTRADO: 'Estadio OMS IV' → 'iv'
+2025-09-09 14:13:50,797 - INFO - 
+🧪 TESTANDO: 'OMS I' no option set EstadioOMS
+2025-09-09 14:13:50,797 - INFO - ❌ NÃO ENCONTRADO: 'OMS I'
+2025-09-09 14:13:50,798 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:13:50,961 - INFO - 
+🧪 TESTANDO: 'OMS II' no option set EstadioOMS
+2025-09-09 14:13:50,962 - INFO - ❌ NÃO ENCONTRADO: 'OMS II'
+2025-09-09 14:13:50,962 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:13:51,155 - INFO - 
+🧪 TESTANDO: 'OMS III' no option set EstadioOMS
+2025-09-09 14:13:51,155 - INFO - ❌ NÃO ENCONTRADO: 'OMS III'
+2025-09-09 14:13:51,156 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:13:51,316 - INFO - 
+🧪 TESTANDO: 'OMS IV' no option set EstadioOMS
+2025-09-09 14:13:51,317 - INFO - ❌ NÃO ENCONTRADO: 'OMS IV'
+2025-09-09 14:13:51,317 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:13:51,471 - INFO - 
+🧪 TESTANDO: 'I' no option set EstadioOMS
+2025-09-09 14:13:51,471 - INFO - ✅ ENCONTRADO (case insensitive): 'I' → 'i'
+2025-09-09 14:13:51,646 - INFO - 
+🧪 TESTANDO: 'II' no option set EstadioOMS
+2025-09-09 14:13:51,647 - INFO - ✅ ENCONTRADO (case insensitive): 'II' → 'ii'
+2025-09-09 14:13:51,814 - INFO - 
+🧪 TESTANDO: 'III' no option set EstadioOMS
+2025-09-09 14:13:51,814 - INFO - ✅ ENCONTRADO (case insensitive): 'III' → 'iii'
+2025-09-09 14:13:51,980 - INFO - 
+🧪 TESTANDO: 'IV' no option set EstadioOMS
+2025-09-09 14:13:51,981 - INFO - ✅ ENCONTRADO (case insensitive): 'IV' → 'iv'
+2025-09-09 14:13:52,143 - INFO - 
+🧪 TESTANDO: 'i' no option set EstadioOMS
+2025-09-09 14:13:52,144 - INFO - ✅ ENCONTRADO: 'i' → 'i'
+2025-09-09 14:13:52,303 - INFO - 
+🧪 TESTANDO: 'ii' no option set EstadioOMS
+2025-09-09 14:13:52,304 - INFO - ✅ ENCONTRADO: 'ii' → 'ii'
+2025-09-09 14:13:52,459 - INFO - 
+🧪 TESTANDO: 'iii' no option set EstadioOMS
+2025-09-09 14:13:52,460 - INFO - ✅ ENCONTRADO: 'iii' → 'iii'
+2025-09-09 14:13:52,618 - INFO - 
+🧪 TESTANDO: 'iv' no option set EstadioOMS
+2025-09-09 14:13:52,619 - INFO - ✅ ENCONTRADO: 'iv' → 'iv'
+2025-09-09 14:13:52,619 - INFO - 
+=== VERIFICANDO VINCULO DOS ATRIBUTOS COM OPTION SETS ===
+2025-09-09 14:13:52,778 - ERROR - Erro ao obter atributo jCdc85LhrtI: 404
+2025-09-09 14:13:52,939 - ERROR - Erro ao obter atributo Gn8SvTBWt9K: 404
+2025-09-09 14:13:52,940 - INFO - 
+=== COMANDO CURL PARA TESTE MANUAL ===
+2025-09-09 14:13:52,940 - INFO - Execute este comando para testar manualmente:
+2025-09-09 14:13:52,940 - INFO - curl -X POST 'http://197.249.4.129:8088/api/29/trackedEntityInstances' \
+2025-09-09 14:13:52,941 - INFO -   -H 'Content-Type: application/json' \
+2025-09-09 14:13:52,941 - INFO -   -u 'admin:Chaguala.123' \
+2025-09-09 14:13:52,941 - INFO -   -d '{"trackedEntityInstances":[{"trackedEntityInstance":"test-001","trackedEntityType":"I1P2bB5OLA9","orgUnit":"P3rkRiVWkDI","attributes":[{"attribute":"jCdc85LhrtI","value":"M"},{"attribute":"Gn8SvTBWt9K","value":"Estadio OMS I"}],"enrollments":[{"enrollment":"test-enroll-001","program":"ll4LqMAHvEj","orgUnit":"P3rkRiVWkDI","enrollmentDate":"2025-09-09","incidentDate":"2025-09-09","status":"ACTIVE"}]}]}'
+2025-09-09 14:38:06,501 - INFO - === DEBUG COMPLETO DO PROBLEMA DHIS2 ===
+2025-09-09 14:38:06,501 - INFO - === DEBUG COMPLETO DOS OPTION SETS ===
+2025-09-09 14:38:06,790 - INFO - 
+🔍 OPTION SET SEXO (Sexo):
+2025-09-09 14:38:06,790 - INFO -    'M' → 'Masculino'
+2025-09-09 14:38:06,790 - INFO -    'Masculino' → 'Masculino'
+2025-09-09 14:38:06,790 - INFO -    'uZXOVhZrhq3' → 'Masculino'
+2025-09-09 14:38:06,790 - INFO -    'F' → 'Feminino'
+2025-09-09 14:38:06,791 - INFO -    'Feminino' → 'Feminino'
+2025-09-09 14:38:06,791 - INFO -    'K1Jegbds502' → 'Feminino'
+2025-09-09 14:38:07,008 - INFO - 
+🔍 OPTION SET ESTADIO OMS (EstadioOMS):
+2025-09-09 14:38:07,008 - INFO -    'Estadio OMS I' → 'i'
+2025-09-09 14:38:07,008 - INFO -    'i' → 'i'
+2025-09-09 14:38:07,008 - INFO -    'PL5bozapNFK' → 'i'
+2025-09-09 14:38:07,009 - INFO -    'Estadio OMS II' → 'ii'
+2025-09-09 14:38:07,009 - INFO -    'ii' → 'ii'
+2025-09-09 14:38:07,009 - INFO -    'AsWZEl8teN5' → 'ii'
+2025-09-09 14:38:07,009 - INFO -    'Estadio OMS III' → 'iii'
+2025-09-09 14:38:07,009 - INFO -    'iii' → 'iii'
+2025-09-09 14:38:07,009 - INFO -    'F9kuHDRE6VQ' → 'iii'
+2025-09-09 14:38:07,009 - INFO -    'Estadio OMS IV' → 'iv'
+2025-09-09 14:38:07,009 - INFO -    'iv' → 'iv'
+2025-09-09 14:38:07,010 - INFO -    'ZTP6DQB4nsT' → 'iv'
+2025-09-09 14:38:07,207 - INFO - 
+🔍 OPTION SET ESTADO (Estado):
+2025-09-09 14:38:07,208 - INFO -    'Abandono nao notificado' → 'Abandono nao notificado'
+2025-09-09 14:38:07,208 - INFO -    'yyUuaBrXlAZ' → 'Abandono nao notificado'
+2025-09-09 14:38:07,208 - INFO -    'Abandonou tratamento' → 'abandonoutratamento'
+2025-09-09 14:38:07,208 - INFO -    'abandonoutratamento' → 'abandonoutratamento'
+2025-09-09 14:38:07,209 - INFO -    'bcRzjwqiIx6' → 'abandonoutratamento'
+2025-09-09 14:38:07,209 - INFO -    'Auto Transferencia Para' → 'AutoTransferenciaPara'
+2025-09-09 14:38:07,209 - INFO -    'AutoTransferenciaPara' → 'AutoTransferenciaPara'
+2025-09-09 14:38:07,209 - INFO -    'A8xl20xCA6d' → 'AutoTransferenciaPara'
+2025-09-09 14:38:07,210 - INFO -    'Efeitos Secundarios' → 'EfeitosSecundarios'
+2025-09-09 14:38:07,210 - INFO -    'EfeitosSecundarios' → 'EfeitosSecundarios'
+2025-09-09 14:38:07,210 - INFO -    'k0U2yJfFkeA' → 'EfeitosSecundarios'
+2025-09-09 14:38:07,210 - INFO -    'Encaminhado Para US' → 'EncaminhadoParaUS'
+2025-09-09 14:38:07,210 - INFO -    'EncaminhadoParaUS' → 'EncaminhadoParaUS'
+2025-09-09 14:38:07,210 - INFO -    'maPHhCdVZyX' → 'EncaminhadoParaUS'
+2025-09-09 14:38:07,211 - INFO -    'Encaminhado Para Grupo de Apoio' → 'EncaminhadoGrupoApoio'
+2025-09-09 14:38:07,211 - INFO -    'EncaminhadoGrupoApoio' → 'EncaminhadoGrupoApoio'
+2025-09-09 14:38:07,211 - INFO -    'etLnTRoIu6v' → 'EncaminhadoGrupoApoio'
+2025-09-09 14:38:07,211 - INFO -    'Esqueceu a Data' → 'EsqueceuData'
+2025-09-09 14:38:07,211 - INFO -    'EsqueceuData' → 'EsqueceuData'
+2025-09-09 14:38:07,211 - INFO -    'uDlWltVacp4' → 'EsqueceuData'
+2025-09-09 14:38:07,211 - INFO -    'Esta Doente' → 'EstaDoente'
+2025-09-09 14:38:07,211 - INFO -    'EstaDoente' → 'EstaDoente'
+2025-09-09 14:38:07,212 - INFO -    'SP5ujfjv97i' → 'EstaDoente'
+2025-09-09 14:38:07,212 - INFO -    'Mau Atendimento' → 'MauAtendimento'
+2025-09-09 14:38:07,212 - INFO -    'MauAtendimento' → 'MauAtendimento'
+2025-09-09 14:38:07,212 - INFO -    'CAID4EurlDX' → 'MauAtendimento'
+2025-09-09 14:38:07,212 - INFO -    'Familiar Referido Para US' → 'FamiliarReferidoUS'
+2025-09-09 14:38:07,212 - INFO -    'FamiliarReferidoUS' → 'FamiliarReferidoUS'
+2025-09-09 14:38:07,213 - INFO -    'BFl6zeL2C0k' → 'FamiliarReferidoUS'
+2025-09-09 14:38:07,213 - INFO -    'Medo do Provedor Saude' → 'MedoProvedorSaude'
+2025-09-09 14:38:07,213 - INFO -    'MedoProvedorSaude' → 'MedoProvedorSaude'
+2025-09-09 14:38:07,213 - INFO -    'fcg1HvVenPB' → 'MedoProvedorSaude'
+2025-09-09 14:38:07,213 - INFO -    'Nao Aceitou Regressar a US' → 'NaoAceitouRegressarUS'
+2025-09-09 14:38:07,213 - INFO -    'NaoAceitouRegressarUS' → 'NaoAceitouRegressarUS'
+2025-09-09 14:38:07,213 - INFO -    'XrQkyqxv0YN' → 'NaoAceitouRegressarUS'
+2025-09-09 14:38:07,213 - INFO -    'Nao Encontrado' → 'NaoEncontrado'
+2025-09-09 14:38:07,213 - INFO -    'NaoEncontrado' → 'NaoEncontrado'
+2025-09-09 14:38:07,213 - INFO -    'B1G89zToudV' → 'NaoEncontrado'
+2025-09-09 14:38:07,214 - INFO -    'Problema de Transporte' → 'ProblemaTransporte'
+2025-09-09 14:38:07,214 - INFO -    'ProblemaTransporte' → 'ProblemaTransporte'
+2025-09-09 14:38:07,214 - INFO -    'TOYiyaapN8o' → 'ProblemaTransporte'
+2025-09-09 14:38:07,214 - INFO -    'Retornou a Unidade Sanitaria' → 'RetornouUnidadeSanitaria'
+2025-09-09 14:38:07,214 - INFO -    'RetornouUnidadeSanitaria' → 'RetornouUnidadeSanitaria'
+2025-09-09 14:38:07,214 - INFO -    'DWfkmNEceZe' → 'RetornouUnidadeSanitaria'
+2025-09-09 14:38:07,214 - INFO -    'Trabalho' → 'Trabalho'
+2025-09-09 14:38:07,214 - INFO -    'jMGh7bsJU9m' → 'Trabalho'
+2025-09-09 14:38:07,214 - INFO -    'Estava na Machamba' → 'EstavaMachamba'
+2025-09-09 14:38:07,215 - INFO -    'EstavaMachamba' → 'EstavaMachamba'
+2025-09-09 14:38:07,215 - INFO -    'hOfTmKTYWFJ' → 'EstavaMachamba'
+2025-09-09 14:38:07,215 - INFO -    'Sente se Bem' → 'SenteBem'
+2025-09-09 14:38:07,215 - INFO -    'SenteBem' → 'SenteBem'
+2025-09-09 14:38:07,215 - INFO -    'S9E5Ru0KG87' → 'SenteBem'
+2025-09-09 14:38:07,215 - INFO -    'Nao se sente bem' → 'NaoSenteBem'
+2025-09-09 14:38:07,215 - INFO -    'NaoSenteBem' → 'NaoSenteBem'
+2025-09-09 14:38:07,215 - INFO -    'YjsIyb5wpMQ' → 'NaoSenteBem'
+2025-09-09 14:38:07,215 - INFO -    'Transferido Para Outra US' → 'TransferidoParaOutraUS'
+2025-09-09 14:38:07,216 - INFO -    'TransferidoParaOutraUS' → 'TransferidoParaOutraUS'
+2025-09-09 14:38:07,216 - INFO -    'a21U7WtTmcL' → 'TransferidoParaOutraUS'
+2025-09-09 14:38:07,216 - INFO -    'Tratamento Tradicional' → 'TratamentoTradicional'
+2025-09-09 14:38:07,216 - INFO -    'TratamentoTradicional' → 'TratamentoTradicional'
+2025-09-09 14:38:07,216 - INFO -    'Mti9DO3n3rL' → 'TratamentoTradicional'
+2025-09-09 14:38:07,216 - INFO -    'Obito' → 'obito'
+2025-09-09 14:38:07,216 - INFO -    'obito' → 'obito'
+2025-09-09 14:38:07,216 - INFO -    'N0nFExgghmv' → 'obito'
+2025-09-09 14:38:07,216 - INFO - 
+=== TESTANDO TODOS OS VALORES POSSÍVEIS ===
+2025-09-09 14:38:07,430 - INFO - 
+🧪 TESTANDO: 'M' no option set Sexo
+2025-09-09 14:38:07,431 - INFO - ✅ ENCONTRADO: 'M' → 'Masculino'
+2025-09-09 14:38:07,649 - INFO - 
+🧪 TESTANDO: 'F' no option set Sexo
+2025-09-09 14:38:07,649 - INFO - ✅ ENCONTRADO: 'F' → 'Feminino'
+2025-09-09 14:38:07,820 - INFO - 
+🧪 TESTANDO: 'Male' no option set Sexo
+2025-09-09 14:38:07,820 - INFO - ❌ NÃO ENCONTRADO: 'Male'
+2025-09-09 14:38:07,820 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 14:38:08,182 - INFO - 
+🧪 TESTANDO: 'Female' no option set Sexo
+2025-09-09 14:38:08,182 - INFO - ❌ NÃO ENCONTRADO: 'Female'
+2025-09-09 14:38:08,182 - INFO -    Opções disponíveis: ['M', 'Masculino', 'uZXOVhZrhq3', 'F', 'Feminino', 'K1Jegbds502']
+2025-09-09 14:38:08,414 - INFO - 
+🧪 TESTANDO: 'Masculino' no option set Sexo
+2025-09-09 14:38:08,415 - INFO - ✅ ENCONTRADO: 'Masculino' → 'Masculino'
+2025-09-09 14:38:08,665 - INFO - 
+🧪 TESTANDO: 'Feminino' no option set Sexo
+2025-09-09 14:38:08,665 - INFO - ✅ ENCONTRADO: 'Feminino' → 'Feminino'
+2025-09-09 14:38:08,869 - INFO - 
+🧪 TESTANDO: 'm' no option set Sexo
+2025-09-09 14:38:08,869 - INFO - ✅ ENCONTRADO (case insensitive): 'm' → 'Masculino'
+2025-09-09 14:38:09,054 - INFO - 
+🧪 TESTANDO: 'f' no option set Sexo
+2025-09-09 14:38:09,055 - INFO - ✅ ENCONTRADO (case insensitive): 'f' → 'Feminino'
+2025-09-09 14:38:09,216 - INFO - 
+🧪 TESTANDO: 'Estadio OMS I' no option set EstadioOMS
+2025-09-09 14:38:09,216 - INFO - ✅ ENCONTRADO: 'Estadio OMS I' → 'i'
+2025-09-09 14:38:09,385 - INFO - 
+🧪 TESTANDO: 'Estadio OMS II' no option set EstadioOMS
+2025-09-09 14:38:09,385 - INFO - ✅ ENCONTRADO: 'Estadio OMS II' → 'ii'
+2025-09-09 14:38:09,566 - INFO - 
+🧪 TESTANDO: 'Estadio OMS III' no option set EstadioOMS
+2025-09-09 14:38:09,566 - INFO - ✅ ENCONTRADO: 'Estadio OMS III' → 'iii'
+2025-09-09 14:38:09,723 - INFO - 
+🧪 TESTANDO: 'Estadio OMS IV' no option set EstadioOMS
+2025-09-09 14:38:09,724 - INFO - ✅ ENCONTRADO: 'Estadio OMS IV' → 'iv'
+2025-09-09 14:38:09,898 - INFO - 
+🧪 TESTANDO: 'OMS I' no option set EstadioOMS
+2025-09-09 14:38:09,899 - INFO - ❌ NÃO ENCONTRADO: 'OMS I'
+2025-09-09 14:38:09,899 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:38:10,064 - INFO - 
+🧪 TESTANDO: 'OMS II' no option set EstadioOMS
+2025-09-09 14:38:10,065 - INFO - ❌ NÃO ENCONTRADO: 'OMS II'
+2025-09-09 14:38:10,065 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:38:10,240 - INFO - 
+🧪 TESTANDO: 'OMS III' no option set EstadioOMS
+2025-09-09 14:38:10,240 - INFO - ❌ NÃO ENCONTRADO: 'OMS III'
+2025-09-09 14:38:10,241 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:38:10,405 - INFO - 
+🧪 TESTANDO: 'OMS IV' no option set EstadioOMS
+2025-09-09 14:38:10,406 - INFO - ❌ NÃO ENCONTRADO: 'OMS IV'
+2025-09-09 14:38:10,406 - INFO -    Opções disponíveis: ['Estadio OMS I', 'i', 'PL5bozapNFK', 'Estadio OMS II', 'ii', 'AsWZEl8teN5', 'Estadio OMS III', 'iii', 'F9kuHDRE6VQ', 'Estadio OMS IV', 'iv', 'ZTP6DQB4nsT']
+2025-09-09 14:38:10,587 - INFO - 
+🧪 TESTANDO: 'I' no option set EstadioOMS
+2025-09-09 14:38:10,587 - INFO - ✅ ENCONTRADO (case insensitive): 'I' → 'i'
+2025-09-09 14:38:10,746 - INFO - 
+🧪 TESTANDO: 'II' no option set EstadioOMS
+2025-09-09 14:38:10,747 - INFO - ✅ ENCONTRADO (case insensitive): 'II' → 'ii'
+2025-09-09 14:38:10,927 - INFO - 
+🧪 TESTANDO: 'III' no option set EstadioOMS
+2025-09-09 14:38:10,928 - INFO - ✅ ENCONTRADO (case insensitive): 'III' → 'iii'
+2025-09-09 14:38:11,111 - INFO - 
+🧪 TESTANDO: 'IV' no option set EstadioOMS
+2025-09-09 14:38:11,112 - INFO - ✅ ENCONTRADO (case insensitive): 'IV' → 'iv'
+2025-09-09 14:38:11,329 - INFO - 
+🧪 TESTANDO: 'i' no option set EstadioOMS
+2025-09-09 14:38:11,329 - INFO - ✅ ENCONTRADO: 'i' → 'i'
+2025-09-09 14:38:11,528 - INFO - 
+🧪 TESTANDO: 'ii' no option set EstadioOMS
+2025-09-09 14:38:11,529 - INFO - ✅ ENCONTRADO: 'ii' → 'ii'
+2025-09-09 14:38:11,719 - INFO - 
+🧪 TESTANDO: 'iii' no option set EstadioOMS
+2025-09-09 14:38:11,719 - INFO - ✅ ENCONTRADO: 'iii' → 'iii'
+2025-09-09 14:38:11,886 - INFO - 
+🧪 TESTANDO: 'iv' no option set EstadioOMS
+2025-09-09 14:38:11,886 - INFO - ✅ ENCONTRADO: 'iv' → 'iv'
+2025-09-09 14:38:11,886 - INFO - 
+=== VERIFICANDO VINCULO DOS ATRIBUTOS COM OPTION SETS ===
+2025-09-09 14:38:12,057 - ERROR - Erro ao obter atributo jCdc85LhrtI: 404
+2025-09-09 14:38:12,248 - ERROR - Erro ao obter atributo Gn8SvTBWt9K: 404
+2025-09-09 14:38:12,249 - INFO - 
+=== COMANDO CURL PARA TESTE MANUAL ===
+2025-09-09 14:38:12,250 - INFO - Execute este comando para testar manualmente:
+2025-09-09 14:38:12,250 - INFO - curl -X POST 'http://197.249.4.129:8088/api/29/trackedEntityInstances' \
+2025-09-09 14:38:12,250 - INFO -   -H 'Content-Type: application/json' \
+2025-09-09 14:38:12,250 - INFO -   -u 'admin:Chaguala.123' \
+2025-09-09 14:38:12,251 - INFO -   -d '{"trackedEntityInstances":[{"trackedEntityInstance":"test-001","trackedEntityType":"I1P2bB5OLA9","orgUnit":"P3rkRiVWkDI","attributes":[{"attribute":"jCdc85LhrtI","value":"M"},{"attribute":"Gn8SvTBWt9K","value":"Estadio OMS I"}],"enrollments":[{"enrollment":"test-enroll-001","program":"ll4LqMAHvEj","orgUnit":"P3rkRiVWkDI","enrollmentDate":"2025-09-09","incidentDate":"2025-09-09","status":"ACTIVE"}]}]}'
