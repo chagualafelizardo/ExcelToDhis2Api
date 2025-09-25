@@ -7,6 +7,9 @@ import json
 import sys
 import uuid
 import re
+import unicodedata
+import os
+import glob
 
 # Configuração de logging
 def setup_logging():
@@ -21,6 +24,15 @@ def setup_logging():
     )
     logging.getLogger('requests').setLevel(logging.WARNING)
     logging.getLogger('urllib3').setLevel(logging.WARNING)
+
+
+def normalize_text(text):
+    """Remove acentos e coloca em minúsculas"""
+    if not isinstance(text, str):
+        return text
+    nfkd = unicodedata.normalize('NFKD', text)
+    no_accents = ''.join([c for c in nfkd if not unicodedata.combining(c)])
+    return no_accents.lower().strip()
 
 # Configuração do DHIS2
 DHIS2_CONFIG = {
@@ -49,7 +61,14 @@ EXCEL_MAPPING = {
         "du5ctoPYFMF": "Dias de Falta",
         "Gn8SvTBWt9K": "Estadio OMS",
         "N3rShDVce0v": "IMC",
-        "DzBXLWorexg": "Estado"
+        "DzBXLWorexg": "Estado",
+        "G1KtcQ0iUbK":"Localidade",
+        "yEv5ZJn96UW":"Bairro",
+        "TFYug7el9FO":"Referência",
+        "tvaZ64Xopsh":"Contacto do Paciente",
+        "yDQXG24myq0":"Nome do Confidente",
+        "DHYuuFG7EgE":"Contacto do Confidente",
+        "phMI3vvzCz6":"Tipo Paciente"
     }
 }
 
@@ -85,6 +104,10 @@ OPTION_SET_MAPPING = {
     },
     "DzBXLWorexg":{
         "yyUuaBrXlAZ":"Abandononaonotificado",
+        "d7b7j9SNwaf":"Abandononaonotificado",
+        "vdOc3pNXu2O": "ABANDONO",
+        "kTWUGlA949C": "TRANSFERIDO PARA",
+        "Ri42R0ht3DD": "TRANSFERIDO DE",
         "bcRzjwqiIx6":"abandonoutratamento",
         "N0nFExgghmv":"obito",
         "A8xl20xCA6d":"AutoTransferenciaPara",
@@ -258,8 +281,8 @@ def prepare_tracker_payload(df):
             logging.info(f"Linha {idx+7}: {col_name} → '{value}' → '{value_str}'")
         
         tracked_entities.append(tracked_entity_data)
-        if len(tracked_entities) >= 2:  # Limita a 2 registros para teste
-            break
+        # if len(tracked_entities) >= 2:  # Limita a 2 registros para teste
+        #     break
     
     return {"trackedEntityInstances": tracked_entities}
 
@@ -319,7 +342,48 @@ def send_to_dhis2_tracker(payload):
 
 def main():
     setup_logging()
-    excel_file = r"C:\Users\Felizardo Chaguala\Desktop\dhis2\data\paciente_atualmente_tarv.xls"
+    # excel_file = r"C:\Users\Felizardo Chaguala\Desktop\dhis2\data\paciente_atualmente_tarv.xls"
+    # ======
+    data_directory = r"C:\Users\Felizardo Chaguala\Desktop\dhis2\data"
+    excel_files = glob.glob(os.path.join(data_directory, "*.xls*"))  # pega .xls e .xlsx
+    excel_files += glob.glob(os.path.join(data_directory, "*.csv"))   # adiciona .csv
+    
+    if not excel_files:
+        logging.warning("⚠️ Nenhum ficheiro Excel encontrado no diretório.")
+        sys.exit(0)
+
+    for excel_file in excel_files:
+        logging.info(f"📄 Processando ficheiro: {excel_file}")
+
+        # Carregar dados
+        df = load_excel_data(excel_file)
+        if df is None:
+            logging.warning(f"❌ Falha ao carregar: {excel_file}")
+            continue
+
+        # Preparar e enviar
+        payload = prepare_tracker_payload(df)
+        if not payload or "trackedEntityInstances" not in payload or not payload["trackedEntityInstances"]:
+            logging.warning(f"⚠️ Nenhum dado válido para enviar: {excel_file}")
+            continue
+
+        logging.info(f"Preparados {len(payload['trackedEntityInstances'])} registros")
+        success, response = send_to_dhis2_tracker(payload)
+
+        if success:
+            logging.info("✅ Enviado com sucesso!")
+        else:
+            logging.error("❌ Falha ao enviar dados")
+
+        # Após processamento, apagar o ficheiro
+        try:
+            os.remove(excel_file)
+            logging.info(f"🗑️ Ficheiro apagado: {excel_file}")
+        except Exception as e:
+            logging.warning(f"⚠️ Não foi possível apagar o ficheiro {excel_file}: {e}")
+
+    # ======
+
     logging.info("=== Iniciando processo de integração TRACKER ===")
 
     # 1. Validar configuração do DHIS2

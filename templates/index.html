@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload DHIS2</title>
+</head>
+<body>
+    <h1>Carregar arquivos DHIS2</h1>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+          {% for message in messages %}
+            <li>{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+    
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" multiple>
+        <button type="submit">Carregar</button>
+    </form>
+</body>
+</html>
